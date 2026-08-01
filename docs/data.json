@@ -1,6 +1,4 @@
-//// filepath: /local_democratic_information_infrastructure_stack/data.json
-{
-  "layers": [
+[
     {
       "id": "level-5",
       "level_number": 5,
@@ -171,5 +169,4 @@
         }
       ]
     }
-  ]
-}
+]
