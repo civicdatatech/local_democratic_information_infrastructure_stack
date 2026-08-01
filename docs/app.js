@@ -29,7 +29,7 @@
     root.appendChild(p);
   }
 
-  fetch('./data.json', { cache: 'no-store' })
+  fetch('./docs/data.json', { cache: 'no-store' })
     .then(resp => {
       if (!resp.ok) throw new Error('Failed to load data.json');
       return resp.json();
