@@ -1,0 +1,153 @@
+//// filepath: /Users/virginiadooley/Documents/civicdataproject/docs/style.css
+/* Basic reset */
+:root{
+  --max-width: 1200px;
+  --gap: 18px;
+  --bg: #ffffff;
+  --muted: #6b7280;
+  --green: #1f9d6a;
+  --blue: #2563eb;
+  --card-bg: #fff;
+  --card-border: #e6e9ef;
+  --layer-bg: #f8fafc;
+  --layer-heading-bg: #ffffff;
+  --shadow: 0 6px 18px rgba(16,24,40,0.08);
+  font-family: Inter, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+  color: #0f172a;
+}
+
+/* layout */
+*{box-sizing:border-box}
+html,body{height:100%}
+body{
+  margin:0;
+  background:var(--bg);
+  -webkit-font-smoothing:antialiased;
+  -moz-osx-font-smoothing:grayscale;
+  line-height:1.45;
+}
+
+.container{
+  max-width:var(--max-width);
+  margin:0 auto;
+  padding:28px;
+}
+
+/* Header */
+.site-header{
+  border-bottom:1px solid #e6edf3;
+  background:linear-gradient(180deg, #fbfdff 0%, #ffffff 100%);
+}
+.site-title{margin:0;font-size:28px;font-weight:700}
+.lead{margin:8px 0 16px;color:var(--muted)}
+
+.scope{
+  background:var(--layer-bg);
+  border:1px solid #e8eef4;
+  padding:16px;
+  border-radius:10px;
+  margin-top:12px;
+}
+.scope h2{margin:0 0 8px;font-size:18px}
+.scope p{margin:6px 0;color:var(--muted);font-size:14px}
+
+/* Map wrapper */
+.map-wrapper{
+  padding-top:28px;
+  padding-bottom:48px;
+}
+
+/* Layer section */
+.layer{
+  background:transparent;
+  margin-bottom:var(--gap);
+  padding:14px;
+  border-radius:12px;
+  border:1px solid #eef3f7;
+  box-shadow:var(--shadow);
+}
+.layer-header{
+  display:flex;
+  gap:12px;
+  align-items:flex-start;
+  margin-bottom:12px;
+}
+.level-num{
+  min-width:46px;
+  height:46px;
+  background:linear-gradient(135deg,#f1f8ff,#fff);
+  border-radius:8px;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  font-weight:700;
+  color:#0b1220;
+  font-size:16px;
+  border:1px solid #e6eef7;
+}
+.layer-title{font-size:18px;margin:0;font-weight:700}
+.layer-desc{color:var(--muted);font-size:13px;margin-top:4px}
+
+/* Categories grid inside a layer */
+.layer-grid{
+  display:grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap:14px;
+}
+
+/* Category column */
+.category{
+  background:var(--layer-heading-bg);
+  border-radius:10px;
+  border:1px solid #e8eef4;
+  padding:10px;
+  min-height:80px;
+  display:flex;
+  flex-direction:column;
+}
+.category h3{margin:0 0 8px;font-size:15px}
+.category .items{display:flex;flex-direction:column;gap:10px}
+
+/* Card */
+.card{
+  background:var(--card-bg);
+  border:1px solid var(--card-border);
+  padding:10px;
+  border-radius:8px;
+  display:flex;
+  flex-direction:column;
+  gap:6px;
+  cursor:pointer;
+  transition:transform .12s ease, box-shadow .12s ease;
+  box-shadow:0 2px 6px rgba(11,15,24,0.04);
+  outline: none;
+}
+.card:focus{box-shadow:0 8px 24px rgba(11,15,24,0.12);transform:translateY(-3px)}
+.card:hover{transform:translateY(-3px)}
+.card .badge{
+  width:10px;height:10px;border-radius:2px;display:inline-block;margin-right:8px;vertical-align:middle;
+}
+.card .product{font-weight:700;font-size:14px;color:#071028}
+.card .org{font-size:12px;color:var(--muted)}
+
+/* Type color styles */
+.type-nonprofit .badge{background:linear-gradient(180deg, rgba(31,157,106,0.12), rgba(31,157,106,0.06)); box-shadow: inset 0 0 0 2px rgba(31,157,106,0.18);}
+.type-commercial .badge{background:linear-gradient(180deg, rgba(37,99,235,0.12), rgba(37,99,235,0.06)); box-shadow: inset 0 0 0 2px rgba(37,99,235,0.18);}
+
+/* Loading / no items */
+.loading, .empty{
+  color:var(--muted);
+  text-align:center;
+  padding:28px 0;
+}
+
+/* Footer */
+.site-footer{border-top:1px solid #e6edf3;color:var(--muted);padding:18px 0;font-size:13px;text-align:center}
+
+/* Responsive: on small screens make layers stack and categories full width */
+@media (max-width:820px){
+  .layer-grid{grid-template-columns:1fr}
+  .container{padding:18px}
+  .site-title{font-size:22px}
+  .lead{font-size:14px}
+}

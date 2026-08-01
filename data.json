@@ -1,0 +1,175 @@
+//// filepath: /local_democratic_information_infrastructure_stack/data.json
+{
+  "layers": [
+    {
+      "id": "level-5",
+      "level_number": 5,
+      "name": "Level 5: Distribution & Mobilization (The Interfaces)",
+      "description": "Where refined information is distributed to residents to facilitate civic action, reporting, and voting.",
+      "categories": [
+        {
+          "name": "Voter Guides & Electoral Engagement",
+          "items": [
+            {
+              "product_name": "League of Women Voters",
+              "organization": "LWV",
+              "type": "nonprofit",
+              "url": "https://www.lwv.org"
+            }
+          ]
+        },
+        {
+          "name": "Civic Journalism & Reporting",
+          "items": [
+            {
+              "product_name": "Documenters",
+              "organization": "City Bureau",
+              "type": "nonprofit",
+              "url": "https://www.documenters.org"
+            }
+          ]
+        },
+        {
+          "name": "Resident Engagement Platforms",
+          "items": [
+            {
+              "product_name": "Locunity",
+              "organization": "Locunity",
+              "type": "commercial",
+              "url": "https://www.locunity.com"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "level-4",
+      "level_number": 4,
+      "name": "Level 4: Contextualization & Application",
+      "description": "Where isolated data is tracked over time, turned into alerts, or curated into specific issue narratives.",
+      "categories": [
+        {
+          "name": "Agenda Alerting & Media Support",
+          "items": [
+            {
+              "product_name": "Agenda Watch",
+              "organization": "Big Local News",
+              "type": "nonprofit",
+              "url": "https://agendawatch.org"
+            },
+            {
+              "product_name": "SeeGov Highlights & Voter Guide Support",
+              "organization": "SeeGov",
+              "type": "nonprofit",
+              "url": "https://seegov.org"
+            }
+          ]
+        },
+        {
+          "name": "Legislation & Representative Tracking",
+          "items": [
+            {
+              "product_name": "Civic Patch",
+              "organization": "Civic Data Tech",
+              "type": "nonprofit",
+              "url": "https://civicpatch.org/"
+            },
+            {
+              "product_name": "Open States",
+              "organization": "Open States",
+              "type": "nonprofit",
+              "url": "https://openstates.org"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "level-3",
+      "level_number": 3,
+      "name": "Level 3: Processing & Synthesis",
+      "description": "Where raw, unstructured government data is refined into structured, searchable formats.",
+      "categories": [
+        {
+          "name": "Transcription & Summarization",
+          "items": [
+            {
+              "product_name": "SeeGov AI Summaries",
+              "organization": "SeeGov",
+              "type": "nonprofit",
+              "url": "https://seegov.org"
+            }
+          ]
+        },
+        {
+          "name": "Data Standardization",
+          "items": [
+            {
+              "product_name": "Open States Architecture",
+              "organization": "Open States",
+              "type": "nonprofit",
+              "url": "https://openstates.org"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "level-2",
+      "level_number": 2,
+      "name": "Level 2: Ingestion & Extraction (The Miners)",
+      "description": "Where tools scrape, pull, and gather raw data from highly fragmented local government systems.",
+      "categories": [
+        {
+          "name": "Video & Audio Extraction",
+          "items": [
+            {
+              "product_name": "SeeGov Media Miner",
+              "organization": "SeeGov",
+              "type": "nonprofit",
+              "url": "https://seegov.org"
+            }
+          ]
+        },
+        {
+          "name": "Document & Agenda Scraping",
+          "items": [
+            {
+              "product_name": "Agenda Watch Scrapers",
+              "organization": "Big Local News",
+              "type": "nonprofit",
+              "url": "https://agendawatch.org"
+            }
+          ]
+        },
+        {
+          "name": "Election & Candidate Data",
+          "items": [
+            {
+              "product_name": "CivicPatch",
+              "organization": "Civic Data Tech",
+              "type": "nonprofit",
+              "url": "https://civicdatatech.github.io/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "level-1",
+      "level_number": 1,
+      "name": "Level 1: Foundation (Systems of Record)",
+      "description": "The bedrock official platforms used by local governments and administrators.",
+      "categories": [
+        {
+          "name": "Meeting Management SaaS",
+          "items": []
+        },
+        {
+          "name": "Election Administration Systems",
+          "items": []
+        }
+      ]
+    }
+  ]
+}

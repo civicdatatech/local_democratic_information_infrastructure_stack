@@ -1,0 +1,39 @@
+//// filepath: /Users/virginiadooley/Documents/civicdataproject/docs/index.html
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Local Democratic Information Infrastructure Stack</title>
+  <link rel="stylesheet" href="./style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <h1 class="site-title">Local Democratic Information Infrastructure Stack</h1>
+      <p class="lead">A data-driven ecosystem map showing the stack of projects and products that collect, process, and distribute civic information.</p>
+
+      <section class="scope">
+        <h2>Scope & Inclusion Criteria</h2>
+        <p><strong>Purpose:</strong> This map visualizes the supply chain of democratic accountability, focusing strictly on the infrastructure needed to extract data from government halls (agendas, votes, debates) and process it into actionable power.</p>
+
+        <p><strong>Rule 1 (Data):</strong> Must deal directly with public meetings, legislation, representative accountability, or the electoral process.</p>
+
+        <p><strong>Rule 2 (Infrastructure):</strong> Must build tools, standardize data, or provide a scalable, tech-enabled process.</p>
+
+        <p><strong>Rule 3 (Human APIs):</strong> General hyper-local activist groups are excluded, but major organizing bodies that provide scaled infrastructure for resident engagement (for example hosting debates or compiling voter guides) are included.</p>
+      </section>
+    </div>
+  </header>
+
+  <main class="map-wrapper container" id="map-root" aria-live="polite">
+    <p class="loading">Loading ecosystem map...</p>
+  </main>
+
+  <footer class="site-footer container">
+    <p>Map generated from <code>data.json</code>. Click a card to open the project site in a new tab.</p>
+  </footer>
+
+  <script src="./app.js"></script>
+</body>
+</html>
