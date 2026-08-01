@@ -37,14 +37,14 @@
     .then(data => {
       root.innerHTML = '';
 
-      if (!data.layers || !Array.isArray(data.layers) || data.layers.length === 0) {
-        renderError('No layers found in data.json');
+      if (!data.categories || !Array.isArray(data.categories) || data.categories.length === 0) {
+        renderError('No categories found in data.json');
         return;
       }
 
-      const layers = data.layers.slice().sort((a,b) => b.level_number - a.level_number);
+      const categories = data.categories.slice().sort((a,b) => b.level_number - a.level_number);
 
-      layers.forEach(layer => {
+      categories.forEach(layer => {
         const layerEl = makeEl('section', { class: 'layer', 'data-layer-id': layer.id });
 
         const header = makeEl('div', { class: 'layer-header' });
