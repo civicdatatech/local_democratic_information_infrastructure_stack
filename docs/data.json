@@ -123,12 +123,6 @@
           "name": "Representative Profiles & Voting Records",
           "items": [
             {
-              "product_name": "Civic Data Project",
-              "organization": "Civic Data Project",
-              "type": "nonprofit",
-              "url": "https://civicdataproject.org"
-            },
-            {
               "product_name": "OpenSecrets",
               "organization": "Center for Responsive Politics",
               "type": "nonprofit",
@@ -204,12 +198,6 @@
               "organization": "CTCL",
               "type": "nonprofit",
               "url": "https://www.techandciviclife.org"
-            },
-            {
-              "product_name": "Civic Data Project",
-              "organization": "Civic Data Project",
-              "type": "nonprofit",
-              "url": "https://civicdataproject.org"
             }
           ]
         },
