@@ -50,8 +50,6 @@ jobs:
                 # Validate enum values
                 assert item['type'] in ['nonprofit', 'commercial', 'open-source'], \
                   f"Invalid type '{item['type']}' for {item['product_name']}"
-                assert item['pricing'] in ['free', 'paid'], \
-                  f"Invalid pricing '{item['pricing']}' for {item['product_name']}"
-          
+                
           print("✓ All required fields present and valid")
           EOF

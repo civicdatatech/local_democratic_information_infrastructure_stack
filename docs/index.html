@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width,initial-scale=1" />
   <title>Local Democratic Information Infrastructure Stack</title>
   <link rel="stylesheet" href="./style.css" />
+  <script src="https://d3js.org/d3.v7.min.js"></script>
 </head>
 <body>
   <header class="site-header">
@@ -20,14 +21,60 @@
 
         <p><strong>Rule 2 (Infrastructure):</strong> Must build tools, standardize data, or provide a scalable, tech-enabled process.</p>
 
-        <p><strong>Rule 3 (Human APIs):</strong> General hyper-local activist groups are excluded, but major organizing bodies that provide scaled infrastructure for resident engagement (for example hosting debates or compiling voter guides) are included.</p>
+        <p><strong>Rule 3 (Human APIs):</strong> General hyper-local activist groups are excluded, but major organizing bodies that provide scaled infrastructure for resident engagement are included.</p>
       </section>
     </div>
   </header>
 
-  <main class="map-wrapper container" id="map-root" aria-live="polite">
-    <p class="loading">Loading ecosystem map...</p>
-  </main>
+  <div class="visualization-wrapper">
+    <aside class="stats-sidebar">
+      <div class="stats-header">
+        <h2>Stack Overview</h2>
+      </div>
+      
+      <div class="stats-content">
+        <div class="stat-item">
+          <span class="stat-label">Total Projects</span>
+          <span class="stat-value" id="total-projects">0</span>
+        </div>
+        
+        <div class="stat-item">
+          <span class="stat-label">Nonprofits</span>
+          <span class="stat-value nonprofit" id="total-nonprofit">0</span>
+        </div>
+        
+        <div class="stat-item">
+          <span class="stat-label">Commercial</span>
+          <span class="stat-value commercial" id="total-commercial">0</span>
+        </div>
+       
+      </div>
+
+      <div class="filters-section">
+        <h3>Filters</h3>
+        
+        <div class="filter-group">
+          <label class="filter-label">
+            <input type="checkbox" id="filter-nonprofit" class="filter-checkbox" value="nonprofit" checked />
+            <span>🟢 Nonprofit</span>
+          </label>
+          <label class="filter-label">
+            <input type="checkbox" id="filter-commercial" class="filter-checkbox" value="commercial" checked />
+            <span>🔵 Commercial</span>
+          </label>
+        </div>
+
+        <button id="reset-filters" class="reset-btn">Reset Filters</button>
+      </div>
+    </aside>
+
+    <main class="map-wrapper container" id="map-root" aria-live="polite">
+      <svg id="connectors-svg" class="connectors-layer"></svg>
+      <div id="layers-container" class="layers-container">
+        <p class="loading">Loading ecosystem map...</p>
+      </div>
+    </main>
+  </div>
 
   <footer class="site-footer container">
     <p>Map generated from <code>data.json</code>. Click a card to open the project site in a new tab.</p>

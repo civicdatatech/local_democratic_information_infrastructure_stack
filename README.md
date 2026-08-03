@@ -14,7 +14,6 @@ Contributions are very welcome. Please raise a PR to expand/suggest stack edits.
      "product_name": "Your Product Name",
      "organization": "Organization Name",
      "type": "nonprofit|commercial|open-source",
-     "pricing": "free|paid",
      "url": "https://example.com"
    }
    ```
