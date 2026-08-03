@@ -127,6 +127,12 @@
               "organization": "Center for Responsive Politics",
               "type": "nonprofit",
               "url": "https://www.opensecrets.org"
+            }, 
+            {
+              "product_name": "CivicPatch",
+              "organization": "Civic Data Tech",
+              "type": "nonprofit",
+              "url": "https://www.civicpatch.org"
             }
           ]
         }
