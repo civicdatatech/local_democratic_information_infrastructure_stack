@@ -1,14 +1,27 @@
-<!-- filepath: /Users/virginiadooley/Documents/Documents/development/local_democratic_information_infrastructure_stack/README.md -->
-This repo is very much a living resource to help individuals and civic tech organizations find their place in the 'stack' and encourage collaboration within the stack. 
+This repo is a living resource to help individuals and civic tech organizations find their place in the 'stack' and encourage collaboration within the stack. 
+
 Thank you to Alex Rosen of SeeGov for initiating this idea and supplying the groundwork for the initial design. 
 
-Contributions are very welcome. Please raise a PR to expand/suggest stack edits. 
+Contributions are very welcome. Please raise a PR to expand/suggest stack edits. To make changes directly using the Github UI: 
 
+## To add/edit/remove a product/project: 
 
-This repo is designed to help individuals and civic tech organizations find their place in the 'stack' and encourage collaboration within the stack. 
-Thank you to Alex Rosen of SeeGov for initiating this idea and supplying the groundwork for the initial design. 
+1. Open `docs/data.json`
+2. Find the appropriate layer and category
+3. Add/edit/remove an item following this format:
+   ```json
+   {
+     "product_name": "Your Product Name",
+     "organization": "Organization Name",
+     "type": "nonprofit|commercial|open-source",
+     "pricing": "free|paid",
+     "url": "https://example.com"
+   }
+   ```
+4. Ensure your JSON is valid (no trailing commas, proper quotes)
+5. Submit a pull request
 
-Contributions are very welcome. Please raise a PR to expand/suggest stack edits. 
+**Note:** All PRs are automatically validated for JSON formatting and required fields. CI will catch any formatting errors.
 
 ## Build Instructions
 
