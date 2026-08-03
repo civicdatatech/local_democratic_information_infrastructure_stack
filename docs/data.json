@@ -67,12 +67,6 @@
           "name": "Legislation & Representative Tracking",
           "items": [
             {
-              "product_name": "Civic Patch",
-              "organization": "Civic Data Tech",
-              "type":"TBD",
-              "url": "https://civicpatch.org/"
-            },
-            {
               "product_name": "Open States",
               "organization": "Open States",
               "type": "nonprofit",
@@ -141,12 +135,12 @@
           ]
         },
         {
-          "name": "Representative Data",
+          "name": "Local Representative Data Crowdsourcing",
           "items": [
             {
               "product_name": "CivicPatch",
               "organization": "Civic Data Tech",
-              "type": "nonprofit",
+              "type": "TBD",
               "url": "https://civicdatatech.github.io/"
             }
           ]
