@@ -26,10 +26,13 @@ fetch('data.json')
         category.items.forEach(item => {
           const itemDiv = document.createElement('div');
           itemDiv.className = 'item';
+          itemDiv.setAttribute('data-type', item.type.toLowerCase());
+          
           itemDiv.innerHTML = `
             <a href="${item.url}" target="_blank" rel="noopener">
-              <strong>${item.product_name}</strong><br>
-              ${item.organization} (${item.type})
+              <strong>${item.product_name}</strong>
+              <div class="item-org">${item.organization}</div>
+              <div class="item-type">${item.type}</div>
             </a>
           `;
           itemsList.appendChild(itemDiv);

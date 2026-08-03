@@ -87,6 +87,62 @@ body{
 .layer-title{font-size:18px;margin:0;font-weight:700}
 .layer-desc{color:var(--muted);font-size:13px;margin-top:4px}
 
+// ...existing code...
+
+.item {
+  background: white;
+  padding: 1rem;
+  border-radius: 4px;
+  border: 1px solid #ddd;
+  border-left: 4px solid #ccc;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.item[data-type="nonprofit"],
+.item[data-type="open-source"],
+.item[data-type="civic project"] {
+  border-left-color: #27ae60;
+  background: #f0fdf4;
+}
+
+.item[data-type="commercial"],
+.item[data-type="for-profit"] {
+  border-left-color: #3498db;
+  background: #f0f9ff;
+}
+
+.item:hover {
+  border-color: #667eea;
+  box-shadow: 0 4px 12px rgba(102, 126, 234, 0.2);
+  transform: translateY(-2px);
+}
+
+.item a {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+}
+
+.item strong {
+  color: #333;
+  display: block;
+  margin-bottom: 0.25rem;
+  font-size: 1rem;
+}
+
+.item-org {
+  font-size: 0.85rem;
+  color: #666;
+  margin-bottom: 0.25rem;
+}
+
+.item-type {
+  font-size: 0.75rem;
+  color: #999;
+  font-style: italic;
+}
+
 /* Categories grid inside a layer */
 .layer-grid{
   display:grid;
