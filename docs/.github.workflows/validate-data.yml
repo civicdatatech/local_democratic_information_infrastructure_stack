@@ -1,0 +1,57 @@
+name: Validate data.json
+
+on:
+  pull_request:
+    paths:
+      - 'docs/data.json'
+  push:
+    branches:
+      - main
+    paths:
+      - 'docs/data.json'
+
+jobs:
+  validate-json:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Validate JSON formatting
+        run: |
+          python3 -m json.tool docs/data.json > /dev/null && echo "✓ data.json is valid JSON" || exit 1
+
+      - name: Check for required fields
+        run: |
+          python3 << 'EOF'
+          import json
+          with open('docs/data.json') as f:
+            data = json.load(f)
+          
+          required_item_fields = ['product_name', 'organization', 'type', 'pricing', 'url']
+          required_layer_fields = ['id', 'layer_number', 'name', 'description', 'categories']
+          required_category_fields = ['name', 'items']
+          
+          for layer in data:
+            # Validate layer fields
+            for field in required_layer_fields:
+              assert field in layer, f"Missing '{field}' in layer {layer.get('id')}"
+            
+            # Validate categories
+            for category in layer['categories']:
+              for field in required_category_fields:
+                assert field in category, f"Missing '{field}' in category {category.get('name')}"
+              
+              # Validate items
+              for item in category['items']:
+                for field in required_item_fields:
+                  assert field in item, f"Missing '{field}' in item {item.get('product_name')}"
+                
+                # Validate enum values
+                assert item['type'] in ['nonprofit', 'commercial', 'open-source'], \
+                  f"Invalid type '{item['type']}' for {item['product_name']}"
+                assert item['pricing'] in ['free', 'paid'], \
+                  f"Invalid pricing '{item['pricing']}' for {item['product_name']}"
+          
+          print("✓ All required fields present and valid")
+          EOF
