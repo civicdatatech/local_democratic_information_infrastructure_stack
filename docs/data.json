@@ -40,17 +40,6 @@
           ]
         },
         {
-          "name": "Resident Engagement Platforms",
-          "items": [
-            {
-              "product_name": "Locunity",
-              "organization": "Locunity",
-              "type": "commercial",
-              "url": "https://www.locunity.com"
-            }
-          ]
-        },
-        {
           "name": "Policy Advocacy Networks",
           "items": [
             {
@@ -58,6 +47,17 @@
               "organization": "ACLU",
               "type": "nonprofit",
               "url": "https://www.aclu.org"
+            }
+          ]
+        },
+        {
+          "name": "Resident Engagement Platforms",
+          "items": [
+            {
+              "product_name": "Locunity",
+              "organization": "Locunity",
+              "type": "commercial",
+              "url": "https://www.locunity.com"
             }
           ]
         }
@@ -204,6 +204,12 @@
               "organization": "CTCL",
               "type": "nonprofit",
               "url": "https://www.techandciviclife.org"
+            },
+            {
+              "product_name": "Civic Data Project",
+              "organization": "Civic Data Project",
+              "type": "nonprofit",
+              "url": "https://civicdataproject.org"
             }
           ]
         },
