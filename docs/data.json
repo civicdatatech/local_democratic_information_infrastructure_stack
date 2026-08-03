@@ -13,6 +13,18 @@
               "organization": "LWV",
               "type": "nonprofit",
               "url": "https://www.lwv.org"
+            },
+            {
+              "product_name": "Vote.org",
+              "organization": "Vote.org",
+              "type": "nonprofit",
+              "url": "https://www.vote.org"
+            },
+            {
+              "product_name": "BallotReady",
+              "organization": "BallotReady",
+              "type": "commercial",
+              "url": "https://www.ballotready.org"
             }
           ]
         },
@@ -37,6 +49,17 @@
               "url": "https://www.locunity.com"
             }
           ]
+        },
+        {
+          "name": "Policy Advocacy Networks",
+          "items": [
+            {
+              "product_name": "State ACLU Chapters",
+              "organization": "ACLU",
+              "type": "nonprofit",
+              "url": "https://www.aclu.org"
+            }
+          ]
         }
       ]
     },
@@ -47,6 +70,28 @@
       "description": "Where isolated data is tracked over time, turned into alerts, or curated into specific issue narratives.",
       "categories": [
         {
+          "name": "Voter Guide Support & Candidate Media",
+          "items": [
+            {
+              "product_name": "SeeGov",
+              "organization": "SeeGov",
+              "type": "commercial",
+              "url": "https://seegov.org"
+            }
+          ]
+        },
+        {
+          "name": "Media Creation & Social Distribution",
+          "items": [
+            {
+              "product_name": "SeeGov Media Highlights",
+              "organization": "SeeGov",
+              "type": "commercial",
+              "url": "https://seegov.org"
+            }
+          ]
+        },
+        {
           "name": "Agenda Alerting & Media Support",
           "items": [
             {
@@ -54,23 +99,40 @@
               "organization": "Big Local News",
               "type": "nonprofit",
               "url": "https://agendawatch.org"
-            },
-            {
-              "product_name": "SeeGov Highlights & Voter Guide Support",
-              "organization": "SeeGov",
-              "type": "nonprofit",
-              "url": "https://seegov.org"
             }
           ]
         },
         {
-          "name": "Legislation & Representative Tracking",
+          "name": "Legislation & Issue Tracking",
           "items": [
             {
-              "product_name": "Open States",
-              "organization": "Open States",
+              "product_name": "Curate by FiscalNote",
+              "organization": "FiscalNote",
+              "type": "commercial",
+              "url": "https://fiscalnote.com"
+            },
+            {
+              "product_name": "Plural",
+              "organization": "Plural",
+              "type": "commercial",
+              "url": "https://plural.vote"
+            }
+          ]
+        },
+        {
+          "name": "Representative Profiles & Voting Records",
+          "items": [
+            {
+              "product_name": "Civic Data Project",
+              "organization": "Civic Data Project",
               "type": "nonprofit",
-              "url": "https://openstates.org"
+              "url": "https://civicdataproject.org"
+            },
+            {
+              "product_name": "OpenSecrets",
+              "organization": "Center for Responsive Politics",
+              "type": "nonprofit",
+              "url": "https://www.opensecrets.org"
             }
           ]
         }
@@ -83,12 +145,23 @@
       "description": "Where raw, unstructured government data is refined into structured, searchable formats.",
       "categories": [
         {
-          "name": "Transcription & Summarization",
+          "name": "Meeting & Debate Transcription / Summarization",
           "items": [
             {
               "product_name": "SeeGov AI Summaries",
               "organization": "SeeGov",
-              "type": "nonprofit",
+              "type": "commercial",
+              "url": "https://seegov.org"
+            }
+          ]
+        },
+        {
+          "name": "Vote Identification",
+          "items": [
+            {
+              "product_name": "SeeGov Vote Detection",
+              "organization": "SeeGov",
+              "type": "commercial",
               "url": "https://seegov.org"
             }
           ]
@@ -97,7 +170,7 @@
           "name": "Data Standardization",
           "items": [
             {
-              "product_name": "Open States Architecture",
+              "product_name": "Open-source Civic Tech Pipelines",
               "organization": "Open States",
               "type": "nonprofit",
               "url": "https://openstates.org"
@@ -118,8 +191,25 @@
             {
               "product_name": "SeeGov Media Miner",
               "organization": "SeeGov",
-              "type": "nonprofit",
+              "type": "commercial",
               "url": "https://seegov.org"
+            }
+          ]
+        },
+        {
+          "name": "Election Data & Candidate Filings",
+          "items": [
+            {
+              "product_name": "Center for Tech and Civic Life",
+              "organization": "CTCL",
+              "type": "nonprofit",
+              "url": "https://www.techandciviclife.org"
+            },
+            {
+              "product_name": "Civic Data Project",
+              "organization": "Civic Data Project",
+              "type": "nonprofit",
+              "url": "https://civicdataproject.org"
             }
           ]
         },
@@ -133,17 +223,6 @@
               "url": "https://agendawatch.org"
             }
           ]
-        },
-        {
-          "name": "Local Representative Data Crowdsourcing",
-          "items": [
-            {
-              "product_name": "CivicPatch",
-              "organization": "Civic Data Tech",
-              "type": "TBD",
-              "url": "https://civicdatatech.github.io/"
-            }
-          ]
         }
       ]
     },
@@ -154,12 +233,55 @@
       "description": "The bedrock official platforms used by local governments and administrators.",
       "categories": [
         {
-          "name": "Meeting Management SaaS",
-          "items": []
+          "name": "Agenda & Meeting Management SaaS",
+          "items": [
+            {
+              "product_name": "Granicus",
+              "organization": "Granicus",
+              "type": "commercial",
+              "url": "https://www.granicus.com"
+            },
+            {
+              "product_name": "PrimeGov / RockSolid",
+              "organization": "PrimeGov",
+              "type": "commercial",
+              "url": "https://www.primegov.com"
+            },
+            {
+              "product_name": "CivicPlus",
+              "organization": "CivicPlus",
+              "type": "commercial",
+              "url": "https://www.civicplus.com"
+            }
+          ]
         },
         {
           "name": "Election Administration Systems",
-          "items": []
+          "items": [
+            {
+              "product_name": "State/County Board of Elections",
+              "organization": "Municipal Government",
+              "type": "nonprofit",
+              "url": "#"
+            }
+          ]
+        },
+        {
+          "name": "Official Broadcasting & Event Hosting",
+          "items": [
+            {
+              "product_name": "Municipal Public Access TV",
+              "organization": "Local Government",
+              "type": "nonprofit",
+              "url": "#"
+            },
+            {
+              "product_name": "Official City YouTube Channels",
+              "organization": "Municipal Government",
+              "type": "nonprofit",
+              "url": "#"
+            }
+          ]
         }
       ]
     }
