@@ -1,8 +1,8 @@
 [
     {
-      "id": "level-5",
-      "level_number": 5,
-      "name": "Level 5: Distribution & Mobilization (The Interfaces)",
+      "id": "layer-5",
+      "layer_number": 5,
+      "name": "Layer 5: Distribution & Mobilization (The Interfaces)",
       "description": "Where refined information is distributed to residents to facilitate civic action, reporting, and voting.",
       "categories": [
         {
@@ -41,9 +41,9 @@
       ]
     },
     {
-      "id": "level-4",
-      "level_number": 4,
-      "name": "Level 4: Contextualization & Application",
+      "id": "layer-4",
+      "layer_number": 4,
+      "name": "Layer 4: Contextualization & Application",
       "description": "Where isolated data is tracked over time, turned into alerts, or curated into specific issue narratives.",
       "categories": [
         {
@@ -83,9 +83,9 @@
       ]
     },
     {
-      "id": "level-3",
-      "level_number": 3,
-      "name": "Level 3: Processing & Synthesis",
+      "id": "layer-3",
+      "layer_number": 3,
+      "name": "Layer 3: Processing & Synthesis",
       "description": "Where raw, unstructured government data is refined into structured, searchable formats.",
       "categories": [
         {
@@ -113,9 +113,9 @@
       ]
     },
     {
-      "id": "level-2",
-      "level_number": 2,
-      "name": "Level 2: Ingestion & Extraction (The Miners)",
+      "id": "layer-2",
+      "layer_number": 2,
+      "name": "Layer 2: Ingestion & Extraction (The Miners)",
       "description": "Where tools scrape, pull, and gather raw data from highly fragmented local government systems.",
       "categories": [
         {
@@ -154,9 +154,9 @@
       ]
     },
     {
-      "id": "level-1",
-      "level_number": 1,
-      "name": "Level 1: Foundation (Systems of Record)",
+      "id": "layer-1",
+      "layer_number": 1,
+      "name": "Layer 1: Foundation (Systems of Record)",
       "description": "The bedrock official platforms used by local governments and administrators.",
       "categories": [
         {

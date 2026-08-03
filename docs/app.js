@@ -1,21 +1,21 @@
 fetch('data.json')
   .then(response => response.json())
-  .then(levels => {
+  .then(layers => {
     const mapRoot = document.getElementById('map-root');
     mapRoot.innerHTML = ''; // Clear loading message
 
-    levels.forEach(level => {
-      const levelDiv = document.createElement('section');
-      levelDiv.className = 'level';
-      levelDiv.innerHTML = `
-        <h2>${level.name}</h2>
-        <p>${level.description}</p>
+    layers.forEach(layer => {
+      const layerDiv = document.createElement('section');
+      layerDiv.className = 'layer';
+      layerDiv.innerHTML = `
+        <h2>${layer.name}</h2>
+        <p>${layer.description}</p>
       `;
 
       const categoriesDiv = document.createElement('div');
       categoriesDiv.className = 'categories';
 
-      level.categories.forEach(category => {
+      layer.categories.forEach(category => {
         const categoryDiv = document.createElement('div');
         categoryDiv.className = 'category';
         categoryDiv.innerHTML = `<h3>${category.name}</h3>`;
@@ -39,8 +39,8 @@ fetch('data.json')
         categoriesDiv.appendChild(categoryDiv);
       });
 
-      levelDiv.appendChild(categoriesDiv);
-      mapRoot.appendChild(levelDiv);
+      layerDiv.appendChild(categoriesDiv);
+      mapRoot.appendChild(layerDiv);
     });
   })
   .catch(error => {

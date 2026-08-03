@@ -1,4 +1,3 @@
-//// filepath: /Users/virginiadooley/Documents/civicdataproject/docs/style.css
 /* Basic reset */
 :root{
   --max-width: 1200px;
@@ -72,7 +71,7 @@ body{
   align-items:flex-start;
   margin-bottom:12px;
 }
-.level-num{
+.layer-num{
   min-width:46px;
   height:46px;
   background:linear-gradient(135deg,#f1f8ff,#fff);
