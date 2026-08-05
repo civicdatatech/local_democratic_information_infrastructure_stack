@@ -204,6 +204,12 @@
               "organization": "CTCL",
               "type": "nonprofit",
               "url": "https://www.techandciviclife.org"
+            },
+            {  
+              "product_name": "CivicMirror",
+              "organization": "CivicMirror",
+              "type": "open-source",
+              "url": "https://civicmirror.app"
             }
           ]
         },
