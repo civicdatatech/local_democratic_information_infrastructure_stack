@@ -98,7 +98,7 @@
             {
               "product_name": "Block Party",
               "organization": "Block Party",
-              "type": "open-source",
+              "type": "nonprofit",
               "url": "https://blockparty.studio"
             },
             {
@@ -110,7 +110,7 @@
             {
               "product_name": "Councilmatic",
               "organization": "DataMade",
-              "type": "open-source",
+              "type": "nonprofit",
               "url": "https://www.councilmatic.org"
             },
             {
@@ -217,7 +217,7 @@
             {
               "product_name": "Block Party Meeting Updates",
               "organization": "Block Party",
-              "type": "open-source",
+              "type": "nonprofit",
               "url": "https://blockparty.studio"
             },
             {
@@ -282,7 +282,7 @@
             {
               "product_name": "Councilmatic",
               "organization": "DataMade",
-              "type": "open-source",
+              "type": "nonprofit",
               "url": "https://www.councilmatic.org"
             },
             {
@@ -329,7 +329,7 @@
             {
               "product_name": "Councilmatic Representative Profiles",
               "organization": "DataMade",
-              "type": "open-source",
+              "type": "nonprofit",
               "url": "https://www.councilmatic.org"
             },
             {
@@ -372,7 +372,7 @@
             {
               "product_name": "Block Party Meeting Synopses",
               "organization": "Block Party",
-              "type": "open-source",
+              "type": "nonprofit",
               "url": "https://blockparty.studio"
             },
             {
@@ -526,7 +526,7 @@
             {
               "product_name": "Councilmatic Open Civic Data",
               "organization": "DataMade",
-              "type": "open-source",
+              "type": "nonprofit",
               "url": "https://www.councilmatic.org"
             },
             {
@@ -639,7 +639,7 @@
             {
               "product_name": "Civic Scraper",
               "organization": "Big Local News",
-              "type": "open-source",
+              "type": "nonprofit",
               "url": "https://civic-scraper.readthedocs.io"
             },
             {
@@ -651,7 +651,7 @@
             {
               "product_name": "Councilmatic Data Import",
               "organization": "DataMade",
-              "type": "open-source",
+              "type": "nonprofit",
               "url": "https://www.councilmatic.org"
             },
             {
