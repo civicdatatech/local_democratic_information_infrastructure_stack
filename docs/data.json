@@ -492,23 +492,6 @@
           ]
         },
         {
-          "name": "Vote Identification",
-          "items": [
-            {
-              "product_name": "SeeGov Vote Detection",
-              "organization": "SeeGov",
-              "type": "commercial",
-              "url": "https://seegov.org"
-            },
-            {
-              "product_name": "Digital Democracy Vote Tracking",
-              "organization": "CalMatters",
-              "type": "nonprofit",
-              "url": "https://calmatters.digitaldemocracy.org"
-            }
-          ]
-        },
-        {
           "name": "Data Standardization",
           "items": [
             {
