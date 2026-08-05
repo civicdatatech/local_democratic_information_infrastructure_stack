@@ -156,17 +156,6 @@
           ]
         },
         {
-          "name": "Vote Identification",
-          "items": [
-            {
-              "product_name": "SeeGov Vote Detection",
-              "organization": "SeeGov",
-              "type": "nonprofit",
-              "url": "https://seegov.org"
-            }
-          ]
-        },
-        {
           "name": "Data Standardization",
           "items": [
             {
