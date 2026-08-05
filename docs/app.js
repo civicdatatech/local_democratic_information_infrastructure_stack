@@ -1,10 +1,48 @@
 let allData = [];
-let filteredIndices = new Set();
+let layoutFrameId = null;
+
+function updateCategoryScrollState(categoriesGrid) {
+  const hasOverflow = categoriesGrid.scrollWidth > categoriesGrid.clientWidth + 1;
+  const hasMoreContent = hasOverflow && (
+    categoriesGrid.scrollLeft + categoriesGrid.clientWidth < categoriesGrid.scrollWidth - 1
+  );
+
+  categoriesGrid.classList.toggle('is-scrollable', hasOverflow);
+  categoriesGrid.classList.toggle('has-overflow-end', hasMoreContent);
+
+  if (hasOverflow) {
+    categoriesGrid.setAttribute('tabindex', '0');
+  } else {
+    categoriesGrid.removeAttribute('tabindex');
+  }
+}
+
+function updateCategoryScrollStates() {
+  document.querySelectorAll('.categories').forEach(updateCategoryScrollState);
+}
+
+function refreshLayout() {
+  if (layoutFrameId !== null) {
+    window.cancelAnimationFrame(layoutFrameId);
+  }
+
+  layoutFrameId = window.requestAnimationFrame(() => {
+    updateCategoryScrollStates();
+    drawConnectors();
+    layoutFrameId = null;
+  });
+}
 
 function updateStats() {
+  const enabledTypes = new Set();
+
+  document.querySelectorAll('.filter-checkbox:checked').forEach(checkbox => {
+    enabledTypes.add(checkbox.value);
+  });
+
   const items = allData.flatMap(layer => 
     layer.categories.flatMap(cat => 
-      cat.items.filter((_, idx) => filteredIndices.has(`${layer.id}-${cat.name}-${idx}`))
+      cat.items.filter(item => enabledTypes.has(item.type))
     )
   );
 
@@ -14,7 +52,7 @@ function updateStats() {
     commercial: items.filter(i => i.type === 'commercial').length
   };
 
-  document.getElementById('total-projects').textContent = stats.total;
+  document.getElementById('total-items').textContent = stats.total;
   document.getElementById('total-nonprofit').textContent = stats.nonprofit;
   document.getElementById('total-commercial').textContent = stats.commercial;
 }
@@ -26,7 +64,7 @@ function applyFilters() {
     typeFilters.add(checkbox.value);
   });
 
-  document.querySelectorAll('.item').forEach(itemEl => {
+  document.querySelectorAll('.item, .note-entry').forEach(itemEl => {
     const type = itemEl.getAttribute('data-type');
     const isVisible = typeFilters.has(type);
     
@@ -34,9 +72,59 @@ function applyFilters() {
   });
 
   updateStats();
+  refreshLayout();
 }
 
-function renderLayers(layers) {
+function renderNotes(noteSections, container) {
+  noteSections.forEach(section => {
+    const notesDiv = document.createElement('section');
+    notesDiv.className = 'stack-notes';
+    notesDiv.id = section.id;
+    notesDiv.innerHTML = `
+      <h2>${section.name}</h2>
+      <p>${section.description}</p>
+    `;
+
+    section.categories.forEach(category => {
+      const noteGroup = document.createElement('div');
+      noteGroup.className = 'note-group';
+
+      if (section.categories.length > 1) {
+        noteGroup.innerHTML = `<h3>${category.name}</h3>`;
+      }
+
+      const notesList = document.createElement('ul');
+      notesList.className = 'note-list';
+
+      if (category.items.length === 0) {
+        const emptyMessage = document.createElement('li');
+        emptyMessage.className = 'category-empty';
+        emptyMessage.textContent = 'TBD — suggestions welcome';
+        notesList.appendChild(emptyMessage);
+      }
+
+      category.items.forEach(item => {
+        const noteItem = document.createElement('li');
+        noteItem.className = 'note-entry';
+        noteItem.setAttribute('data-type', item.type.toLowerCase());
+        noteItem.innerHTML = `
+          <a href="${item.url}" target="_blank" rel="noopener" aria-label="${item.product_name} by ${item.organization}, ${item.type}">
+            <strong>${item.product_name}</strong>
+          </a>
+          <span class="item-note">${item.note}</span>
+        `;
+        notesList.appendChild(noteItem);
+      });
+
+      noteGroup.appendChild(notesList);
+      notesDiv.appendChild(noteGroup);
+    });
+
+    container.appendChild(notesDiv);
+  });
+}
+
+function renderLayers(layers, noteSections) {
   const container = document.getElementById('layers-container');
   container.innerHTML = '';
 
@@ -51,6 +139,11 @@ function renderLayers(layers) {
 
     const categoriesDiv = document.createElement('div');
     categoriesDiv.className = 'categories';
+    categoriesDiv.setAttribute('aria-label', `${layer.name} categories`);
+    categoriesDiv.setAttribute('role', 'region');
+    categoriesDiv.addEventListener('scroll', () => {
+      updateCategoryScrollState(categoriesDiv);
+    }, { passive: true });
 
     layer.categories.forEach(category => {
       const categoryDiv = document.createElement('div');
@@ -60,21 +153,25 @@ function renderLayers(layers) {
       const itemsList = document.createElement('div');
       itemsList.className = 'items';
 
-      category.items.forEach((item, idx) => {
+      if (category.items.length === 0) {
+        const emptyMessage = document.createElement('p');
+        emptyMessage.className = 'category-empty';
+        emptyMessage.textContent = 'TBD — suggestions welcome';
+        itemsList.appendChild(emptyMessage);
+      }
+
+      category.items.forEach(item => {
         const itemDiv = document.createElement('div');
         itemDiv.className = 'item';
         itemDiv.setAttribute('data-type', item.type.toLowerCase());
-        itemDiv.id = `${layer.id}-${category.name}-${idx}`;
         
         itemDiv.innerHTML = `
-          <a href="${item.url}" target="_blank" rel="noopener">
+          <a href="${item.url}" target="_blank" rel="noopener" aria-label="${item.product_name} by ${item.organization}, ${item.type}">
             <strong>${item.product_name}</strong>
             <div class="item-org">${item.organization}</div>
-            <div class="item-type">${item.type}</div>
           </a>
         `;
         itemsList.appendChild(itemDiv);
-        filteredIndices.add(itemDiv.id);
       });
 
       categoryDiv.appendChild(itemsList);
@@ -85,8 +182,10 @@ function renderLayers(layers) {
     container.appendChild(layerDiv);
   });
 
+  renderNotes(noteSections, container);
+
   updateStats();
-  drawConnectors();
+  refreshLayout();
 }
 
 function drawConnectors() {
@@ -128,9 +227,10 @@ function drawConnectors() {
 
 fetch('data.json')
   .then(response => response.json())
-  .then(layers => {
-    allData = layers;
-    renderLayers(layers);
+  .then(entries => {
+    allData = entries.filter(entry => !entry.is_notes);
+    const noteSections = entries.filter(entry => entry.is_notes);
+    renderLayers(allData, noteSections);
   })
   .catch(error => {
     console.error('Error loading data.json:', error);
@@ -148,4 +248,4 @@ document.getElementById('reset-filters').addEventListener('click', () => {
   applyFilters();
 });
 
-window.addEventListener('resize', drawConnectors);
+window.addEventListener('resize', refreshLayout);

@@ -2,57 +2,325 @@
     {
       "id": "layer-5",
       "layer_number": 5,
-      "name": "Layer 5: Distribution & Mobilization (The Interfaces)",
-      "description": "Where refined information is distributed to residents to facilitate civic action, reporting, and voting.",
+      "name": "Layer 5: Distribution & Mobilization",
+      "description": "Where refined information is distributed primarily to residents to facilitate civic action and voting.",
       "categories": [
         {
           "name": "Voter Guides & Electoral Engagement",
           "items": [
             {
-              "product_name": "League of Women Voters",
-              "organization": "LWV",
+              "product_name": "Ballotpedia Sample Ballot Lookup",
+              "organization": "Ballotpedia",
               "type": "nonprofit",
-              "url": "https://www.lwv.org"
-            },
-            {
-              "product_name": "Vote.org",
-              "organization": "Vote.org",
-              "type": "nonprofit",
-              "url": "https://www.vote.org"
+              "url": "https://ballotpedia.org/Sample_Ballot_Lookup"
             },
             {
               "product_name": "BallotReady",
               "organization": "BallotReady",
               "type": "commercial",
               "url": "https://www.ballotready.org"
-            }
-          ]
-        },
-        {
-          "name": "Civic Journalism & Reporting",
-          "items": [
+            },
             {
-              "product_name": "Documenters",
-              "organization": "City Bureau",
+              "product_name": "guides.vote",
+              "organization": "guides.vote",
               "type": "nonprofit",
-              "url": "https://www.documenters.org"
-            }
-          ]
-        },
-        {
-          "name": "Policy Advocacy Networks",
-          "items": [
+              "url": "https://guides.vote"
+            },
             {
-              "product_name": "State ACLU Chapters",
-              "organization": "ACLU",
+              "product_name": "VOTE411",
+              "organization": "League of Women Voters Education Fund",
               "type": "nonprofit",
-              "url": "https://www.aclu.org"
+              "url": "https://www.vote411.org"
+            },
+            {
+              "product_name": "Vote.org",
+              "organization": "Vote.org",
+              "type": "nonprofit",
+              "url": "https://www.vote.org"
             }
           ]
         },
         {
           "name": "Resident Engagement Platforms",
           "items": [
+            {
+              "product_name": "Aware",
+              "organization": "Aware",
+              "type": "commercial",
+              "url": "https://www.awarenow.ai"
+            },
+            {
+              "product_name": "Citizen Portal",
+              "organization": "Citizen Portal",
+              "type": "commercial",
+              "url": "https://citizenportal.ai"
+            },
+            {
+              "product_name": "Civic Action Builder",
+              "organization": "Planet Detroit",
+              "type": "nonprofit",
+              "url": "https://civiclab.planetdetroit.org/"
+            },
+            {
+              "product_name": "CivicSearch",
+              "organization": "Datamuse",
+              "type": "nonprofit",
+              "url": "https://civicsearch.org"
+            },
+            {
+              "product_name": "Legigram",
+              "organization": "Legigram",
+              "type": "nonprofit",
+              "url": "https://www.legigram.com"
+            },
+            {
+              "product_name": "Local Minutes",
+              "organization": "Local Minutes",
+              "type": "commercial",
+              "url": "https://www.localminutes.org"
+            },
+            {
+              "product_name": "OpGov News",
+              "organization": "Open Governance",
+              "type": "nonprofit",
+              "url": "https://opgov.news"
+            },
+            {
+              "product_name": "SeeGov",
+              "organization": "SeeGov",
+              "type": "nonprofit",
+              "url": "https://seegov.org"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "layer-4",
+      "layer_number": 4,
+      "name": "Layer 4: Contextualization & Application",
+      "description": "Where structured information supports voter guides and representative data, provides agenda access, and is summarized or turned into publishable media.",
+      "categories": [
+        {
+          "name": "Voter Guide Support",
+          "items": []
+        },
+        {
+          "name": "Representative Data",
+          "items": [
+            {
+              "product_name": "Ballotpedia Data Client",
+              "organization": "Ballotpedia",
+              "type": "nonprofit",
+              "url": "https://developer.ballotpedia.org"
+            },
+            {
+              "product_name": "BallotReady Officeholder Engine",
+              "organization": "BallotReady",
+              "type": "commercial",
+              "url": "https://organizations.ballotready.org/officeholder-engine"
+            },
+            {
+              "product_name": "CivicPatch",
+              "organization": "Civic Data Tech",
+              "type": "nonprofit",
+              "url": "https://www.civicpatch.org"
+            },
+            {
+              "product_name": "Locunity Civic Map",
+              "organization": "Locunity",
+              "type": "commercial",
+              "url": "https://www.locunity.com"
+            }
+          ]
+        },
+        {
+          "name": "Agenda Access",
+          "items": [
+            {
+              "product_name": "Agenda Watch",
+              "organization": "Big Local News",
+              "type": "nonprofit",
+              "url": "https://agendawatch.org"
+            },
+            {
+              "product_name": "Aware",
+              "organization": "Aware",
+              "type": "commercial",
+              "url": "https://www.awarenow.ai"
+            },
+            {
+              "product_name": "CivicBand",
+              "organization": "Raft Foundation",
+              "type": "nonprofit",
+              "url": "https://civic.band"
+            },
+            {
+              "product_name": "Civilio",
+              "organization": "Civilio",
+              "type": "commercial",
+              "url": "https://civilio.ai"
+            }
+          ]
+        },
+        {
+          "name": "Meeting Summarization & Analysis",
+          "items": [
+            {
+              "product_name": "Aware",
+              "organization": "Aware",
+              "type": "commercial",
+              "url": "https://www.awarenow.ai"
+            },
+            {
+              "product_name": "Cambridge Artificial Intelligencer",
+              "organization": "Cambridge Artificial Intelligencer",
+              "type": "nonprofit",
+              "url": "https://cai.news"
+            },
+            {
+              "product_name": "Citizen Portal",
+              "organization": "Citizen Portal",
+              "type": "commercial",
+              "url": "https://citizenportal.ai"
+            },
+            {
+              "product_name": "CivicSearch",
+              "organization": "Datamuse",
+              "type": "nonprofit",
+              "url": "https://civicsearch.org"
+            },
+            {
+              "product_name": "Civilio",
+              "organization": "Civilio",
+              "type": "commercial",
+              "url": "https://civilio.ai"
+            },
+            {
+              "product_name": "Local Minutes",
+              "organization": "Local Minutes",
+              "type": "commercial",
+              "url": "https://www.localminutes.org"
+            },
+            {
+              "product_name": "LocalLens",
+              "organization": "American Public Media",
+              "type": "nonprofit",
+              "url": "https://thelocallens.org"
+            },
+            {
+              "product_name": "Locunity Real-Time Meeting Reports",
+              "organization": "Locunity",
+              "type": "commercial",
+              "url": "https://www.locunity.com"
+            },
+            {
+              "product_name": "OpGov News",
+              "organization": "Open Governance",
+              "type": "nonprofit",
+              "url": "https://opgov.news"
+            },
+            {
+              "product_name": "TelVue Connect & CloudCast",
+              "organization": "TelVue",
+              "type": "commercial",
+              "url": "https://telvue.com/connect-v3-3-ai-agendas-site-wide-captions-chapters-search"
+            }
+          ]
+        },
+        {
+          "name": "Human-Guided Media Creation",
+          "items": [
+            {
+              "product_name": "Cambridge Artificial Intelligencer",
+              "organization": "Cambridge Artificial Intelligencer",
+              "type": "nonprofit",
+              "url": "https://cai.news"
+            },
+            {
+              "product_name": "Civic Action Builder",
+              "organization": "Planet Detroit",
+              "type": "nonprofit",
+              "url": "https://civiclab.planetdetroit.org/"
+            },
+            {
+              "product_name": "Civilio",
+              "organization": "Civilio",
+              "type": "commercial",
+              "url": "https://civilio.ai"
+            },
+            {
+              "product_name": "Documenters",
+              "organization": "City Bureau",
+              "type": "nonprofit",
+              "url": "https://www.documenters.org"
+            },
+            {
+              "product_name": "SeeGov",
+              "organization": "SeeGov",
+              "type": "nonprofit",
+              "url": "https://seegov.org"
+            }
+          ]
+        },
+        {
+          "name": "Automated Media Creation",
+          "items": [
+            {
+              "product_name": "Citizen Portal",
+              "organization": "Citizen Portal",
+              "type": "commercial",
+              "url": "https://citizenportal.ai"
+            },
+            {
+              "product_name": "Locunity Content Generation",
+              "organization": "Locunity",
+              "type": "commercial",
+              "url": "https://www.locunity.com"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "layer-3",
+      "layer_number": 3,
+      "name": "Layer 3: Processing & Synthesis",
+      "description": "Where meeting audio and video are transcribed into text for downstream use.",
+      "categories": [
+        {
+          "name": "Meeting Transcription",
+          "items": [
+            {
+              "product_name": "CivicPlus Media",
+              "organization": "CivicPlus",
+              "type": "commercial",
+              "url": "https://www.civicplus.com/tools/civicplus-media"
+            },
+            {
+              "product_name": "CivicSearch",
+              "organization": "Datamuse",
+              "type": "nonprofit",
+              "url": "https://civicsearch.org"
+            },
+            {
+              "product_name": "Civilio",
+              "organization": "Civilio",
+              "type": "commercial",
+              "url": "https://civilio.ai"
+            },
+            {
+              "product_name": "Granicus Video",
+              "organization": "Granicus",
+              "type": "commercial",
+              "url": "https://granicus.com/product/self-managed-video-solutions/"
+            },
+            {
+              "product_name": "LocalLens",
+              "organization": "American Public Media",
+              "type": "nonprofit",
+              "url": "https://thelocallens.org"
+            },
             {
               "product_name": "Locunity",
               "organization": "Locunity",
@@ -64,130 +332,26 @@
       ]
     },
     {
-      "id": "layer-4",
-      "layer_number": 4,
-      "name": "Layer 4: Contextualization & Application",
-      "description": "Where isolated data is tracked over time, turned into alerts, or curated into specific issue narratives.",
-      "categories": [
-        {
-          "name": "Voter Guide Support & Candidate Media",
-          "items": [
-            {
-              "product_name": "SeeGov",
-              "organization": "SeeGov",
-              "type": "nonprofit",
-              "url": "https://seegov.org"
-            }
-          ]
-        },
-        {
-          "name": "Media Creation & Social Distribution",
-          "items": [
-            {
-              "product_name": "SeeGov Media Highlights",
-              "organization": "SeeGov",
-              "type": "nonprofit",
-              "url": "https://seegov.org"
-            }
-          ]
-        },
-        {
-          "name": "Agenda Alerting & Media Support",
-          "items": [
-            {
-              "product_name": "Agenda Watch",
-              "organization": "Big Local News",
-              "type": "nonprofit",
-              "url": "https://agendawatch.org"
-            }
-          ]
-        },
-        {
-          "name": "Legislation & Issue Tracking",
-          "items": [
-            {
-              "product_name": "Curate by FiscalNote",
-              "organization": "FiscalNote",
-              "type": "commercial",
-              "url": "https://fiscalnote.com"
-            },
-            {
-              "product_name": "Plural",
-              "organization": "Plural",
-              "type": "commercial",
-              "url": "https://plural.vote"
-            }
-          ]
-        },
-        {
-          "name": "Representative Profiles & Voting Records",
-          "items": [
-            {
-              "product_name": "OpenSecrets",
-              "organization": "Center for Responsive Politics",
-              "type": "nonprofit",
-              "url": "https://www.opensecrets.org"
-            }, 
-            {
-              "product_name": "CivicPatch",
-              "organization": "Civic Data Tech",
-              "type": "nonprofit",
-              "url": "https://www.civicpatch.org"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "layer-3",
-      "layer_number": 3,
-      "name": "Layer 3: Processing & Synthesis",
-      "description": "Where raw, unstructured government data is refined into structured, searchable formats.",
-      "categories": [
-        {
-          "name": "Meeting & Debate Transcription / Summarization",
-          "items": [
-            {
-              "product_name": "SeeGov AI Summaries",
-              "organization": "SeeGov",
-              "type": "nonprofit",
-              "url": "https://seegov.org"
-            }
-          ]
-        },
-        {
-          "name": "Data Standardization",
-          "items": [
-            {
-              "product_name": "Open-source Civic Tech Pipelines",
-              "organization": "Open States",
-              "type": "nonprofit",
-              "url": "https://openstates.org"
-            }
-          ]
-        }
-      ]
-    },
-    {
       "id": "layer-2",
       "layer_number": 2,
-      "name": "Layer 2: Ingestion & Extraction (The Miners)",
+      "name": "Layer 2: Ingestion & Extraction",
       "description": "Where tools scrape, pull, and gather raw data from highly fragmented local government systems.",
       "categories": [
         {
-          "name": "Video & Audio Extraction",
-          "items": [
-            {
-              "product_name": "SeeGov Media Miner",
-              "organization": "SeeGov",
-              "type": "nonprofit",
-              "url": "https://seegov.org"
-            }
-          ]
-        },
-        {
           "name": "Election Data & Candidate Filings",
           "items": [
+            {
+              "product_name": "Ballotpedia Data Client",
+              "organization": "Ballotpedia",
+              "type": "nonprofit",
+              "url": "https://developer.ballotpedia.org"
+            },
+            {
+              "product_name": "BallotReady",
+              "organization": "BallotReady",
+              "type": "commercial",
+              "url": "https://organizations.ballotready.org/data-products"
+            },
             {
               "product_name": "Center for Tech and Civic Life",
               "organization": "CTCL",
@@ -197,13 +361,90 @@
           ]
         },
         {
-          "name": "Document & Agenda Scraping",
+          "name": "Meeting Agenda and Document Scraping",
           "items": [
             {
-              "product_name": "Agenda Watch Scrapers",
+              "product_name": "Agenda Watch",
               "organization": "Big Local News",
               "type": "nonprofit",
               "url": "https://agendawatch.org"
+            },
+            {
+              "product_name": "Civic Scraper",
+              "organization": "Big Local News",
+              "type": "nonprofit",
+              "url": "https://civic-scraper.readthedocs.io"
+            },
+            {
+              "product_name": "CivicBand",
+              "organization": "Raft Foundation",
+              "type": "nonprofit",
+              "url": "https://civic.band"
+            },
+            {
+              "product_name": "Legigram",
+              "organization": "Legigram",
+              "type": "nonprofit",
+              "url": "https://www.legigram.com"
+            },
+            {
+              "product_name": "Locunity",
+              "organization": "Locunity",
+              "type": "commercial",
+              "url": "https://www.locunity.com"
+            },
+            {
+              "product_name": "Open Civic Data",
+              "organization": "Open Civic Data",
+              "type": "nonprofit",
+              "url": "https://github.com/opencivicdata/scrapers-us-municipal"
+            }
+          ]
+        },
+        {
+          "name": "Video & Audio Extraction",
+          "items": [
+            {
+              "product_name": "Aware Capture",
+              "organization": "Aware",
+              "type": "commercial",
+              "url": "https://www.awarenow.ai"
+            },
+            {
+              "product_name": "Citizen Portal",
+              "organization": "Citizen Portal",
+              "type": "commercial",
+              "url": "https://citizenportal.ai"
+            },
+            {
+              "product_name": "CivicSearch",
+              "organization": "Datamuse",
+              "type": "nonprofit",
+              "url": "https://civicsearch.org"
+            },
+            {
+              "product_name": "Civilio",
+              "organization": "Civilio",
+              "type": "commercial",
+              "url": "https://civilio.ai"
+            },
+            {
+              "product_name": "LocalLens",
+              "organization": "American Public Media",
+              "type": "nonprofit",
+              "url": "https://thelocallens.org"
+            },
+            {
+              "product_name": "Locunity",
+              "organization": "Locunity",
+              "type": "commercial",
+              "url": "https://www.locunity.com"
+            },
+            {
+              "product_name": "SeeGov",
+              "organization": "SeeGov",
+              "type": "nonprofit",
+              "url": "https://seegov.org"
             }
           ]
         }
@@ -212,29 +453,23 @@
     {
       "id": "layer-1",
       "layer_number": 1,
-      "name": "Layer 1: Foundation (Systems of Record)",
-      "description": "The bedrock official platforms used by local governments and administrators.",
+      "name": "Layer 1: Foundation & Systems of Record",
+      "description": "Foundational identifiers, reference datasets, and major official platforms that define or publish local government records.",
       "categories": [
         {
-          "name": "Agenda & Meeting Management SaaS",
+          "name": "Government Entity Identifiers & Reference Data",
           "items": [
             {
-              "product_name": "Granicus",
-              "organization": "Granicus",
-              "type": "commercial",
-              "url": "https://www.granicus.com"
+              "product_name": "Government Units Survey",
+              "organization": "U.S. Census Bureau",
+              "type": "nonprofit",
+              "url": "https://www.census.gov/programs-surveys/gus.html"
             },
             {
-              "product_name": "PrimeGov / RockSolid",
-              "organization": "PrimeGov",
-              "type": "commercial",
-              "url": "https://www.primegov.com"
-            },
-            {
-              "product_name": "CivicPlus",
-              "organization": "CivicPlus",
-              "type": "commercial",
-              "url": "https://www.civicplus.com"
+              "product_name": "Open Civic Data",
+              "organization": "Open Civic Data",
+              "type": "nonprofit",
+              "url": "https://open-civic-data.readthedocs.io/en/latest/ocdids.html"
             }
           ]
         },
@@ -250,8 +485,55 @@
           ]
         },
         {
+          "name": "Agenda & Meeting Management SaaS",
+          "items": [
+            {
+              "product_name": "CivicPlus Agenda and Meeting Management",
+              "organization": "CivicPlus",
+              "type": "commercial",
+              "url": "https://www.civicplus.com/agenda-meeting-management/"
+            },
+            {
+              "product_name": "eSCRIBE",
+              "organization": "eSCRIBE",
+              "type": "commercial",
+              "url": "https://www.escribemeetings.com/markets/local-government/"
+            },
+            {
+              "product_name": "Legistar",
+              "organization": "Granicus",
+              "type": "commercial",
+              "url": "https://granicus.com/products/"
+            },
+            {
+              "product_name": "PrimeGov / RockSolid",
+              "organization": "PrimeGov",
+              "type": "commercial",
+              "url": "https://www.primegov.com"
+            }
+          ]
+        },
+        {
           "name": "Official Broadcasting & Event Hosting",
           "items": [
+            {
+              "product_name": "Cablecast",
+              "organization": "Tightrope Media Systems",
+              "type": "commercial",
+              "url": "https://www.cablecast.tv/"
+            },
+            {
+              "product_name": "CivicPlus Media",
+              "organization": "CivicPlus",
+              "type": "commercial",
+              "url": "https://www.civicplus.com/tools/civicplus-media"
+            },
+            {
+              "product_name": "Granicus govMeetings",
+              "organization": "Granicus",
+              "type": "commercial",
+              "url": "https://granicus.com/solution/agenda-meeting-management"
+            },
             {
               "product_name": "Municipal Public Access TV",
               "organization": "Local Government",
@@ -263,6 +545,108 @@
               "organization": "Municipal Government",
               "type": "nonprofit",
               "url": "#"
+            },
+            {
+              "product_name": "TelVue Connect & CloudCast",
+              "organization": "TelVue",
+              "type": "commercial",
+              "url": "https://telvue.com"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "notes",
+      "layer_number": 0,
+      "name": "Notes",
+      "description": "Projects and providers listed separately because of limited geographic coverage or the stack's selective Layer 1 focus.",
+      "is_notes": true,
+      "categories": [
+        {
+          "name": "Limited-Coverage Projects",
+          "items": [
+            {
+              "product_name": "Block Party",
+              "organization": "Block Party",
+              "type": "nonprofit",
+              "url": "https://blockparty.studio",
+              "note": "Focuses on community board meetings in New York City, New York. As of August 5, 2026, it does not appear to be expanding to additional locations."
+            },
+            {
+              "product_name": "Civic Summary",
+              "organization": "Civic Summary",
+              "type": "commercial",
+              "url": "https://weho.civicsummary.ai",
+              "note": "Currently focuses on West Hollywood, California."
+            },
+            {
+              "product_name": "Councilmatic",
+              "organization": "DataMade",
+              "type": "nonprofit",
+              "url": "https://www.councilmatic.org",
+              "note": "Currently lists only Chicago and Los Angeles Metro. Its source-code link points to a legacy New York City repository last updated in 2019, although the Chicago implementation remains maintained."
+            },
+            {
+              "product_name": "Hamlet GovCenter",
+              "organization": "Hamlet",
+              "type": "commercial",
+              "url": "https://gov.myhamlet.com",
+              "note": "Currently lists only Palo Alto and Saratoga, California. Hamlet's main site now focuses on commercial local-government intelligence rather than expanding its resident-facing GovCenter offering."
+            },
+            {
+              "product_name": "HeyRecap",
+              "organization": "HeyRecap",
+              "type": "commercial",
+              "url": "https://www.heyrecap.com",
+              "note": "Focuses on Roswell, Georgia. As of August 5, 2026, it does not appear to be expanding to additional locations."
+            }
+          ]
+        },
+        {
+          "name": "Additional Layer 1 Providers",
+          "items": [
+            {
+              "product_name": "BoxCast",
+              "organization": "BoxCast",
+              "type": "commercial",
+              "url": "https://www.boxcast.com/",
+              "note": "A general-purpose live-streaming platform used by local governments; it would fit Layer 1's Official Broadcasting & Event Hosting category."
+            },
+            {
+              "product_name": "CASTUS",
+              "organization": "CASTUS",
+              "type": "commercial",
+              "url": "https://castus.tv/",
+              "note": "Provides broadcast playout, live streaming, and video-on-demand systems used by public-access and government channels; it would fit Layer 1's Official Broadcasting & Event Hosting category."
+            },
+            {
+              "product_name": "CHAMP",
+              "organization": "Champion Data Systems",
+              "type": "commercial",
+              "url": "https://champds.com/",
+              "note": "Provides agenda management and integrated live and on-demand meeting video; it would fit Layer 1's Agenda & Meeting Management SaaS and Official Broadcasting & Event Hosting categories."
+            },
+            {
+              "product_name": "Eduvision",
+              "organization": "JDL Horizons",
+              "type": "commercial",
+              "url": "https://eduvision.jdlhorizons.com/",
+              "note": "A video platform used primarily by schools and districts for events and board meetings; it would fit Layer 1's Official Broadcasting & Event Hosting category."
+            },
+            {
+              "product_name": "OnBase Agenda Online",
+              "organization": "Hyland",
+              "type": "commercial",
+              "url": "https://try.hyland.com/solutions/government/agenda-management",
+              "note": "Publishes meeting documents and video from the OnBase Agenda suite; it would fit Layer 1's Agenda & Meeting Management SaaS category."
+            },
+            {
+              "product_name": "VieBit",
+              "organization": "LEIGHTRONIX",
+              "type": "commercial",
+              "url": "https://www.leightronix.com/products/viebit-vod",
+              "note": "Provides live and on-demand web video with optional index points used by some government channels; it would fit Layer 1's Official Broadcasting & Event Hosting category."
             }
           ]
         }
