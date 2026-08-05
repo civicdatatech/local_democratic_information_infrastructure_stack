@@ -326,6 +326,12 @@
               "organization": "Locunity",
               "type": "commercial",
               "url": "https://www.locunity.com"
+            },
+            {
+              "product_name": "SeeGov",
+              "organization": "SeeGov",
+              "type": "nonprofit",
+              "url": "https://seegov.org"
             }
           ]
         }
@@ -357,6 +363,12 @@
               "organization": "CTCL",
               "type": "nonprofit",
               "url": "https://www.techandciviclife.org"
+            },
+            {
+              "product_name": "CivicMirror",
+              "organization": "CivicMirror",
+              "type": "nonprofit",
+              "url": "https://civicmirror.app"
             }
           ]
         },
