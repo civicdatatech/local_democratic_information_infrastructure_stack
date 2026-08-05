@@ -75,7 +75,7 @@
             {
               "product_name": "SeeGov",
               "organization": "SeeGov",
-              "type": "commercial",
+              "type": "nonprofit",
               "url": "https://seegov.org"
             }
           ]
@@ -86,7 +86,7 @@
             {
               "product_name": "SeeGov Media Highlights",
               "organization": "SeeGov",
-              "type": "commercial",
+              "type": "nonprofit",
               "url": "https://seegov.org"
             }
           ]
@@ -150,7 +150,7 @@
             {
               "product_name": "SeeGov AI Summaries",
               "organization": "SeeGov",
-              "type": "commercial",
+              "type": "nonprofit",
               "url": "https://seegov.org"
             }
           ]
@@ -161,7 +161,7 @@
             {
               "product_name": "SeeGov Vote Detection",
               "organization": "SeeGov",
-              "type": "commercial",
+              "type": "nonprofit",
               "url": "https://seegov.org"
             }
           ]
@@ -191,7 +191,7 @@
             {
               "product_name": "SeeGov Media Miner",
               "organization": "SeeGov",
-              "type": "commercial",
+              "type": "nonprofit",
               "url": "https://seegov.org"
             }
           ]
