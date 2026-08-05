@@ -11,12 +11,14 @@ function updateStats() {
   const stats = {
     total: items.length,
     nonprofit: items.filter(i => i.type === 'nonprofit').length,
-    commercial: items.filter(i => i.type === 'commercial').length
+    commercial: items.filter(i => i.type === 'commercial').length,
+    openSource: items.filter(i => i.type === 'open-source').length
   };
 
   document.getElementById('total-projects').textContent = stats.total;
   document.getElementById('total-nonprofit').textContent = stats.nonprofit;
   document.getElementById('total-commercial').textContent = stats.commercial;
+  document.getElementById('total-open-source').textContent = stats.openSource;
 }
 
 function applyFilters() {

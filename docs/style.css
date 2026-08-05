@@ -110,6 +110,10 @@ body {
   color: #3498db;
 }
 
+.stat-value.open-source {
+  color: #f39c12;
+}
+
 
 
 /* Filters */

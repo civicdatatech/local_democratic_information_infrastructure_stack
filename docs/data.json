@@ -36,6 +36,42 @@
               "organization": "City Bureau",
               "type": "nonprofit",
               "url": "https://www.documenters.org"
+            },
+            {
+              "product_name": "Cambridge Artificial Intelligencer",
+              "organization": "Cambridge Artificial Intelligencer",
+              "type": "nonprofit",
+              "url": "https://cai.news"
+            },
+            {
+              "product_name": "Digital Democracy",
+              "organization": "CalMatters",
+              "type": "nonprofit",
+              "url": "https://calmatters.digitaldemocracy.org"
+            },
+            {
+              "product_name": "OpGov News",
+              "organization": "Open Governance",
+              "type": "nonprofit",
+              "url": "https://opgov.news"
+            },
+            {
+              "product_name": "Civic Searchlight",
+              "organization": "Canada's National Observer",
+              "type": "commercial",
+              "url": "https://civicsearchlight.nationalobserver.com"
+            },
+            {
+              "product_name": "Civilio",
+              "organization": "Civilio",
+              "type": "commercial",
+              "url": "https://civilio.ai"
+            },
+            {
+              "product_name": "LocalLens",
+              "organization": "American Public Media",
+              "type": "nonprofit",
+              "url": "https://thelocallens.org"
             }
           ]
         },
@@ -58,6 +94,66 @@
               "organization": "Locunity",
               "type": "commercial",
               "url": "https://www.locunity.com"
+            },
+            {
+              "product_name": "Block Party",
+              "organization": "Block Party",
+              "type": "open-source",
+              "url": "https://blockparty.studio"
+            },
+            {
+              "product_name": "CivicSearch",
+              "organization": "Datamuse",
+              "type": "nonprofit",
+              "url": "https://civicsearch.org"
+            },
+            {
+              "product_name": "Councilmatic",
+              "organization": "DataMade",
+              "type": "open-source",
+              "url": "https://www.councilmatic.org"
+            },
+            {
+              "product_name": "Legigram",
+              "organization": "Legigram",
+              "type": "nonprofit",
+              "url": "https://www.legigram.com"
+            },
+            {
+              "product_name": "Aware",
+              "organization": "Aware",
+              "type": "commercial",
+              "url": "https://www.awarenow.ai"
+            },
+            {
+              "product_name": "Citizen Portal",
+              "organization": "Citizen Portal",
+              "type": "commercial",
+              "url": "https://citizenportal.ai"
+            },
+            {
+              "product_name": "Civic Summary",
+              "organization": "Civic Summary",
+              "type": "commercial",
+              "url": "https://weho.civicsummary.ai"
+            },
+            {
+              "product_name": "Hamlet GovCenter",
+              "organization": "Hamlet",
+              "type": "commercial",
+              "url": "https://gov.myhamlet.com"
+            },
+            {
+              "product_name": "HeyRecap",
+              "organization": "HeyRecap",
+              "type": "commercial",
+              "url": "https://www.heyrecap.com"
+            },
+            {
+              "product_name": "Local Minutes",
+              "organization": "Local Minutes",
+              "type": "commercial",
+              "url": "https://www.localminutes.org"
             }
           ]
         }
@@ -88,6 +184,24 @@
               "organization": "SeeGov",
               "type": "commercial",
               "url": "https://seegov.org"
+            },
+            {
+              "product_name": "Cambridge Artificial Intelligencer Newsroom Tools",
+              "organization": "Cambridge Artificial Intelligencer",
+              "type": "nonprofit",
+              "url": "https://cai.news"
+            },
+            {
+              "product_name": "Citizen Portal AI Articles",
+              "organization": "Citizen Portal",
+              "type": "commercial",
+              "url": "https://citizenportal.ai"
+            },
+            {
+              "product_name": "Locunity Content Generation",
+              "organization": "Locunity",
+              "type": "commercial",
+              "url": "https://www.locunity.com"
             }
           ]
         },
@@ -99,6 +213,54 @@
               "organization": "Big Local News",
               "type": "nonprofit",
               "url": "https://agendawatch.org"
+            },
+            {
+              "product_name": "Block Party Meeting Updates",
+              "organization": "Block Party",
+              "type": "open-source",
+              "url": "https://blockparty.studio"
+            },
+            {
+              "product_name": "CivicSearch Alerts",
+              "organization": "Datamuse",
+              "type": "nonprofit",
+              "url": "https://civicsearch.org"
+            },
+            {
+              "product_name": "Aware Meeting Notifications",
+              "organization": "Aware",
+              "type": "commercial",
+              "url": "https://www.awarenow.ai"
+            },
+            {
+              "product_name": "Civic Summary Agenda Alerts",
+              "organization": "Civic Summary",
+              "type": "commercial",
+              "url": "https://weho.civicsummary.ai"
+            },
+            {
+              "product_name": "Civilio Topic Alerts",
+              "organization": "Civilio",
+              "type": "commercial",
+              "url": "https://civilio.ai"
+            },
+            {
+              "product_name": "GovSpend Meeting Intelligence Alerts",
+              "organization": "GovSpend",
+              "type": "commercial",
+              "url": "https://govspend.com/meeting-intelligence"
+            },
+            {
+              "product_name": "LocalLens Meeting Monitoring",
+              "organization": "American Public Media",
+              "type": "nonprofit",
+              "url": "https://thelocallens.org"
+            },
+            {
+              "product_name": "TelVue Connect & CloudCast",
+              "organization": "TelVue",
+              "type": "commercial",
+              "url": "https://telvue.com/connect-v3-3-ai-agendas-site-wide-captions-chapters-search"
             }
           ]
         },
@@ -116,6 +278,36 @@
               "organization": "Plural",
               "type": "commercial",
               "url": "https://plural.vote"
+            },
+            {
+              "product_name": "Councilmatic",
+              "organization": "DataMade",
+              "type": "open-source",
+              "url": "https://www.councilmatic.org"
+            },
+            {
+              "product_name": "Digital Democracy",
+              "organization": "CalMatters",
+              "type": "nonprofit",
+              "url": "https://calmatters.digitaldemocracy.org"
+            },
+            {
+              "product_name": "Legigram",
+              "organization": "Legigram",
+              "type": "nonprofit",
+              "url": "https://www.legigram.com"
+            },
+            {
+              "product_name": "Civic Searchlight",
+              "organization": "Canada's National Observer",
+              "type": "commercial",
+              "url": "https://civicsearchlight.nationalobserver.com"
+            },
+            {
+              "product_name": "CoverGov",
+              "organization": "CoverGov",
+              "type": "commercial",
+              "url": "https://www.covergov.com"
             }
           ]
         },
@@ -133,6 +325,30 @@
               "organization": "Civic Data Tech",
               "type": "nonprofit",
               "url": "https://www.civicpatch.org"
+            },
+            {
+              "product_name": "Councilmatic Representative Profiles",
+              "organization": "DataMade",
+              "type": "open-source",
+              "url": "https://www.councilmatic.org"
+            },
+            {
+              "product_name": "Digital Democracy Legislator Profiles",
+              "organization": "CalMatters",
+              "type": "nonprofit",
+              "url": "https://calmatters.digitaldemocracy.org"
+            },
+            {
+              "product_name": "Locunity Civic Map",
+              "organization": "Locunity",
+              "type": "commercial",
+              "url": "https://www.locunity.com"
+            },
+            {
+              "product_name": "Civic Summary Voting History",
+              "organization": "Civic Summary",
+              "type": "commercial",
+              "url": "https://weho.civicsummary.ai"
             }
           ]
         }
@@ -152,6 +368,126 @@
               "organization": "SeeGov",
               "type": "commercial",
               "url": "https://seegov.org"
+            },
+            {
+              "product_name": "Block Party Meeting Synopses",
+              "organization": "Block Party",
+              "type": "open-source",
+              "url": "https://blockparty.studio"
+            },
+            {
+              "product_name": "Cambridge Artificial Intelligencer Meeting Analysis",
+              "organization": "Cambridge Artificial Intelligencer",
+              "type": "nonprofit",
+              "url": "https://cai.news"
+            },
+            {
+              "product_name": "CivicSearch Meeting Transcripts",
+              "organization": "Datamuse",
+              "type": "nonprofit",
+              "url": "https://civicsearch.org"
+            },
+            {
+              "product_name": "Digital Democracy Hearing Transcripts",
+              "organization": "CalMatters",
+              "type": "nonprofit",
+              "url": "https://calmatters.digitaldemocracy.org"
+            },
+            {
+              "product_name": "OpGov Meeting Reporting",
+              "organization": "Open Governance",
+              "type": "nonprofit",
+              "url": "https://opgov.news"
+            },
+            {
+              "product_name": "Aware Meeting Summaries",
+              "organization": "Aware",
+              "type": "commercial",
+              "url": "https://www.awarenow.ai"
+            },
+            {
+              "product_name": "Civic Searchlight Transcripts",
+              "organization": "Canada's National Observer",
+              "type": "commercial",
+              "url": "https://civicsearchlight.nationalobserver.com"
+            },
+            {
+              "product_name": "Citizen Portal Meeting Summaries",
+              "organization": "Citizen Portal",
+              "type": "commercial",
+              "url": "https://citizenportal.ai"
+            },
+            {
+              "product_name": "Civic Summary Agenda Summaries",
+              "organization": "Civic Summary",
+              "type": "commercial",
+              "url": "https://weho.civicsummary.ai"
+            },
+            {
+              "product_name": "Civilio Meeting Intelligence",
+              "organization": "Civilio",
+              "type": "commercial",
+              "url": "https://civilio.ai"
+            },
+            {
+              "product_name": "CoverGov Meeting Transcripts",
+              "organization": "CoverGov",
+              "type": "commercial",
+              "url": "https://www.covergov.com"
+            },
+            {
+              "product_name": "GovSpend Meeting Intelligence",
+              "organization": "GovSpend",
+              "type": "commercial",
+              "url": "https://govspend.com/meeting-intelligence"
+            },
+            {
+              "product_name": "Granicus Transcription & Spoken Word Search",
+              "organization": "Granicus",
+              "type": "commercial",
+              "url": "https://granicus.com/operations-cloud"
+            },
+            {
+              "product_name": "CivicPlus Media Transcription & Search",
+              "organization": "CivicPlus",
+              "type": "commercial",
+              "url": "https://www.civicplus.com/tools/civicplus-media"
+            },
+            {
+              "product_name": "Hamlet GovCenter Meeting Summaries",
+              "organization": "Hamlet",
+              "type": "commercial",
+              "url": "https://gov.myhamlet.com"
+            },
+            {
+              "product_name": "HeyRecap Meeting Summaries",
+              "organization": "HeyRecap",
+              "type": "commercial",
+              "url": "https://www.heyrecap.com"
+            },
+            {
+              "product_name": "LocalLens Meeting Analysis",
+              "organization": "American Public Media",
+              "type": "nonprofit",
+              "url": "https://thelocallens.org"
+            },
+            {
+              "product_name": "Local Minutes Meeting Summaries",
+              "organization": "Local Minutes",
+              "type": "commercial",
+              "url": "https://www.localminutes.org"
+            },
+            {
+              "product_name": "Locunity Meeting Reports",
+              "organization": "Locunity",
+              "type": "commercial",
+              "url": "https://www.locunity.com"
+            },
+            {
+              "product_name": "TelVue AI Agendas & Metadata",
+              "organization": "TelVue",
+              "type": "commercial",
+              "url": "https://telvue.com/connect-v3-3-ai-agendas-site-wide-captions-chapters-search"
             }
           ]
         },
@@ -163,6 +499,12 @@
               "organization": "SeeGov",
               "type": "commercial",
               "url": "https://seegov.org"
+            },
+            {
+              "product_name": "Digital Democracy Vote Tracking",
+              "organization": "CalMatters",
+              "type": "nonprofit",
+              "url": "https://calmatters.digitaldemocracy.org"
             }
           ]
         },
@@ -174,6 +516,24 @@
               "organization": "Open States",
               "type": "nonprofit",
               "url": "https://openstates.org"
+            },
+            {
+              "product_name": "CivicBand Meeting Data",
+              "organization": "Raft Foundation",
+              "type": "nonprofit",
+              "url": "https://civic.band"
+            },
+            {
+              "product_name": "Councilmatic Open Civic Data",
+              "organization": "DataMade",
+              "type": "open-source",
+              "url": "https://www.councilmatic.org"
+            },
+            {
+              "product_name": "Legigram Legistar Data",
+              "organization": "Legigram",
+              "type": "nonprofit",
+              "url": "https://www.legigram.com"
             }
           ]
         }
@@ -193,6 +553,66 @@
               "organization": "SeeGov",
               "type": "commercial",
               "url": "https://seegov.org"
+            },
+            {
+              "product_name": "Aware Capture",
+              "organization": "Aware",
+              "type": "commercial",
+              "url": "https://www.awarenow.ai"
+            },
+            {
+              "product_name": "CivicSearch Transcript Collection",
+              "organization": "Datamuse",
+              "type": "nonprofit",
+              "url": "https://civicsearch.org"
+            },
+            {
+              "product_name": "Digital Democracy Public Hearing Collection",
+              "organization": "CalMatters",
+              "type": "nonprofit",
+              "url": "https://calmatters.digitaldemocracy.org"
+            },
+            {
+              "product_name": "Civic Searchlight Meeting Collection",
+              "organization": "Canada's National Observer",
+              "type": "commercial",
+              "url": "https://civicsearchlight.nationalobserver.com"
+            },
+            {
+              "product_name": "Citizen Portal Meeting Collection",
+              "organization": "Citizen Portal",
+              "type": "commercial",
+              "url": "https://citizenportal.ai"
+            },
+            {
+              "product_name": "Civilio Meeting Collection",
+              "organization": "Civilio",
+              "type": "commercial",
+              "url": "https://civilio.ai"
+            },
+            {
+              "product_name": "CoverGov Meeting Collection",
+              "organization": "CoverGov",
+              "type": "commercial",
+              "url": "https://www.covergov.com"
+            },
+            {
+              "product_name": "GovSpend Meeting Intelligence Collection",
+              "organization": "GovSpend",
+              "type": "commercial",
+              "url": "https://govspend.com/meeting-intelligence"
+            },
+            {
+              "product_name": "LocalLens Meeting Monitoring",
+              "organization": "American Public Media",
+              "type": "nonprofit",
+              "url": "https://thelocallens.org"
+            },
+            {
+              "product_name": "Locunity Meeting Monitoring",
+              "organization": "Locunity",
+              "type": "commercial",
+              "url": "https://www.locunity.com"
             }
           ]
         },
@@ -215,6 +635,54 @@
               "organization": "Big Local News",
               "type": "nonprofit",
               "url": "https://agendawatch.org"
+            },
+            {
+              "product_name": "Civic Scraper",
+              "organization": "Big Local News",
+              "type": "open-source",
+              "url": "https://civic-scraper.readthedocs.io"
+            },
+            {
+              "product_name": "CivicBand Document Collection",
+              "organization": "Raft Foundation",
+              "type": "nonprofit",
+              "url": "https://civic.band"
+            },
+            {
+              "product_name": "Councilmatic Data Import",
+              "organization": "DataMade",
+              "type": "open-source",
+              "url": "https://www.councilmatic.org"
+            },
+            {
+              "product_name": "Legigram Agenda Import",
+              "organization": "Legigram",
+              "type": "nonprofit",
+              "url": "https://www.legigram.com"
+            },
+            {
+              "product_name": "Civic Summary Agenda Collection",
+              "organization": "Civic Summary",
+              "type": "commercial",
+              "url": "https://weho.civicsummary.ai"
+            },
+            {
+              "product_name": "CoverGov Agenda Monitoring",
+              "organization": "CoverGov",
+              "type": "commercial",
+              "url": "https://www.covergov.com"
+            },
+            {
+              "product_name": "GovSpend Meeting Document Collection",
+              "organization": "GovSpend",
+              "type": "commercial",
+              "url": "https://govspend.com/meeting-intelligence"
+            },
+            {
+              "product_name": "Locunity Agenda Monitoring",
+              "organization": "Locunity",
+              "type": "commercial",
+              "url": "https://www.locunity.com"
             }
           ]
         }
@@ -274,6 +742,24 @@
               "organization": "Municipal Government",
               "type": "nonprofit",
               "url": "#"
+            },
+            {
+              "product_name": "CivicPlus Media",
+              "organization": "CivicPlus",
+              "type": "commercial",
+              "url": "https://www.civicplus.com/tools/civicplus-media"
+            },
+            {
+              "product_name": "Granicus govMeetings Video",
+              "organization": "Granicus",
+              "type": "commercial",
+              "url": "https://granicus.com/solution/agenda-meeting-management"
+            },
+            {
+              "product_name": "TelVue Connect & CloudCast",
+              "organization": "TelVue",
+              "type": "commercial",
+              "url": "https://telvue.com"
             }
           ]
         }
