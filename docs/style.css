@@ -29,6 +29,60 @@ body {
   margin-bottom: 0.5rem;
 }
 
+.contribute-callout {
+  align-items: center;
+  background: rgba(255, 255, 255, 0.12);
+  border: 1px solid rgba(255, 255, 255, 0.28);
+  border-radius: 8px;
+  display: flex;
+  gap: 1.25rem;
+  justify-content: space-between;
+  margin-top: 1.5rem;
+  padding: 1.1rem 1.25rem;
+}
+
+.contribute-copy {
+  max-width: 760px;
+}
+
+.contribute-copy h2 {
+  font-size: 1.05rem;
+  margin-bottom: 0.15rem;
+}
+
+.contribute-copy p {
+  color: rgba(255, 255, 255, 0.9);
+  line-height: 1.5;
+}
+
+.contribute-link {
+  align-items: center;
+  background: white;
+  border-radius: 6px;
+  color: #5e67c5;
+  display: inline-flex;
+  flex-shrink: 0;
+  font-weight: 700;
+  gap: 0.5rem;
+  padding: 0.7rem 1rem;
+  text-decoration: none;
+  transition: background 0.2s ease, transform 0.2s ease;
+}
+
+.contribute-link:hover {
+  background: #f3f4ff;
+  transform: translateY(-1px);
+}
+
+.contribute-link:focus-visible {
+  outline: 3px solid white;
+  outline-offset: 3px;
+}
+
+.github-icon {
+  flex: none;
+}
+
 .scope {
   background: rgba(255, 255, 255, 0.1);
   padding: 2rem;
@@ -523,6 +577,15 @@ body {
 }
 
 @media (max-width: 640px) {
+  .contribute-callout {
+    align-items: stretch;
+    flex-direction: column;
+  }
+
+  .contribute-link {
+    justify-content: center;
+  }
+
   .stats-content {
     display: grid;
     grid-template-columns: 1fr;
