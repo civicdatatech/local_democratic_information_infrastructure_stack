@@ -7,7 +7,7 @@ Contributions are very welcome. Please raise a PR to expand/suggest stack edits.
 ## Scope
 
 The stack covers projects and products with meaningful local-government or
-local-election use in the United States that make local democratic information
+local-election use in the United States that make local democracy information
 usable for public-interest purposes. This includes candidate and ballot
 information and tools that help residents communicate with representatives.
 Exclude tools built primarily to monitor government for private commercial
