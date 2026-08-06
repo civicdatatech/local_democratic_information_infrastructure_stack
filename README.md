@@ -13,7 +13,7 @@ commercial advantage.
 
 General local activist groups and general-purpose engagement or consultation
 platforms sold to governments are excluded. Scaled engagement infrastructure
-is included when it helps residents use and act on local democratic
+is included when it helps residents use and act on local democracy
 information.
 
 Layer 1 is illustrative rather than comprehensive. Include foundational
