@@ -27,6 +27,12 @@
               "url": "https://guides.vote"
             },
             {
+              "product_name": "TurboVote",
+              "organization": "Democracy Works",
+              "type": "nonprofit",
+              "url": "https://www.democracy.works/turbovote"
+            },
+            {
               "product_name": "VOTE411",
               "organization": "League of Women Voters Education Fund",
               "type": "nonprofit",
@@ -37,6 +43,12 @@
               "organization": "Vote.org",
               "type": "nonprofit",
               "url": "https://www.vote.org"
+            },
+            {
+              "product_name": "WeVote",
+              "organization": "WeVote",
+              "type": "nonprofit",
+              "url": "https://wevote.us/"
             }
           ]
         },
@@ -80,6 +92,18 @@
               "url": "https://www.localminutes.org"
             },
             {
+              "product_name": "OpenCity Record",
+              "organization": "OpenCityUSA",
+              "type": "commercial",
+              "url": "https://opencityrecord.org/"
+            },
+            {
+              "product_name": "OpenPublica",
+              "organization": "OpenPublica",
+              "type": "nonprofit",
+              "url": "https://www.openpublica.com/"
+            },
+            {
               "product_name": "OpGov News",
               "organization": "Open Governance",
               "type": "nonprofit",
@@ -103,7 +127,20 @@
       "categories": [
         {
           "name": "Voter Guide Support",
-          "items": []
+          "items": [
+            {
+              "product_name": "TurboVote",
+              "organization": "Democracy Works",
+              "type": "nonprofit",
+              "url": "https://www.democracy.works/turbovote"
+            },
+            {
+              "product_name": "WeVote",
+              "organization": "WeVote",
+              "type": "nonprofit",
+              "url": "https://wevote.us/"
+            }
+          ]
         },
         {
           "name": "Representative Data",
@@ -160,6 +197,12 @@
               "organization": "Civilio",
               "type": "commercial",
               "url": "https://civilio.ai"
+            },
+            {
+              "product_name": "Muyni",
+              "organization": "Muyni",
+              "type": "nonprofit",
+              "url": "https://www.muyni.com/"
             }
           ]
         },
@@ -197,22 +240,34 @@
               "url": "https://civilio.ai"
             },
             {
-              "product_name": "Local Minutes",
-              "organization": "Local Minutes",
-              "type": "commercial",
-              "url": "https://www.localminutes.org"
-            },
-            {
               "product_name": "LocalLens",
               "organization": "American Public Media",
               "type": "nonprofit",
               "url": "https://thelocallens.org"
             },
             {
+              "product_name": "Local Minutes",
+              "organization": "Local Minutes",
+              "type": "commercial",
+              "url": "https://www.localminutes.org"
+            },
+            {
               "product_name": "Locunity Real-Time Meeting Reports",
               "organization": "Locunity",
               "type": "commercial",
               "url": "https://www.locunity.com"
+            },
+            {
+              "product_name": "OpenCity Record",
+              "organization": "OpenCityUSA",
+              "type": "commercial",
+              "url": "https://opencityrecord.org/"
+            },
+            {
+              "product_name": "OpenPublica",
+              "organization": "OpenPublica",
+              "type": "nonprofit",
+              "url": "https://www.openpublica.com/"
             },
             {
               "product_name": "OpGov News",
@@ -328,6 +383,18 @@
               "url": "https://www.locunity.com"
             },
             {
+              "product_name": "OpenCity Record",
+              "organization": "OpenCityUSA",
+              "type": "commercial",
+              "url": "https://opencityrecord.org/"
+            },
+            {
+              "product_name": "OpenPublica",
+              "organization": "OpenPublica",
+              "type": "nonprofit",
+              "url": "https://www.openpublica.com/"
+            },
+            {
               "product_name": "SeeGov",
               "organization": "SeeGov",
               "type": "nonprofit",
@@ -369,6 +436,24 @@
               "organization": "CivicMirror",
               "type": "nonprofit",
               "url": "https://civicmirror.app"
+            },
+            {
+              "product_name": "Elections API",
+              "organization": "Democracy Works",
+              "type": "nonprofit",
+              "url": "https://www.democracy.works/elections-api"
+            },
+            {
+              "product_name": "Google Civic Information API",
+              "organization": "Google",
+              "type": "commercial",
+              "url": "https://developers.google.com/civic-information"
+            },
+            {
+              "product_name": "Voting Information Project",
+              "organization": "Democracy Works",
+              "type": "nonprofit",
+              "url": "https://www.democracy.works/voting-info-project"
             }
           ]
         },
@@ -382,16 +467,22 @@
               "url": "https://agendawatch.org"
             },
             {
-              "product_name": "Civic Scraper",
-              "organization": "Big Local News",
+              "product_name": "City Scrapers",
+              "organization": "City Bureau",
               "type": "nonprofit",
-              "url": "https://civic-scraper.readthedocs.io"
+              "url": "https://github.com/City-Bureau/city-scrapers"
             },
             {
               "product_name": "CivicBand",
               "organization": "Raft Foundation",
               "type": "nonprofit",
               "url": "https://civic.band"
+            },
+            {
+              "product_name": "Civic Scraper",
+              "organization": "Big Local News",
+              "type": "nonprofit",
+              "url": "https://civic-scraper.readthedocs.io"
             },
             {
               "product_name": "Legigram",
@@ -404,6 +495,12 @@
               "organization": "Locunity",
               "type": "commercial",
               "url": "https://www.locunity.com"
+            },
+            {
+              "product_name": "Muyni",
+              "organization": "Muyni",
+              "type": "nonprofit",
+              "url": "https://www.muyni.com/"
             },
             {
               "product_name": "Open Civic Data",
@@ -451,6 +548,18 @@
               "organization": "Locunity",
               "type": "commercial",
               "url": "https://www.locunity.com"
+            },
+            {
+              "product_name": "OpenCity Record",
+              "organization": "OpenCityUSA",
+              "type": "commercial",
+              "url": "https://opencityrecord.org/"
+            },
+            {
+              "product_name": "OpenPublica",
+              "organization": "OpenPublica",
+              "type": "nonprofit",
+              "url": "https://www.openpublica.com/"
             },
             {
               "product_name": "SeeGov",
@@ -504,6 +613,12 @@
               "organization": "CivicPlus",
               "type": "commercial",
               "url": "https://www.civicplus.com/agenda-meeting-management/"
+            },
+            {
+              "product_name": "Diligent Community",
+              "organization": "Diligent",
+              "type": "commercial",
+              "url": "https://www.diligent.com/products/community"
             },
             {
               "product_name": "eSCRIBE",
@@ -586,6 +701,20 @@
               "note": "Focuses on community board meetings in New York City, New York. As of August 5, 2026, it does not appear to be expanding to additional locations."
             },
             {
+              "product_name": "Branch",
+              "organization": "Branch Politics",
+              "type": "commercial",
+              "url": "https://branch.vote/",
+              "note": "Provides voter guides for selected local elections rather than nationwide coverage. It originated in Atlanta, Georgia, and initially expanded around the Atlanta area."
+            },
+            {
+              "product_name": "CivicIndex",
+              "organization": "CivicIndex",
+              "type": "commercial",
+              "url": "https://www.civicindex.io/",
+              "note": "Currently focuses on Nantucket, Massachusetts."
+            },
+            {
               "product_name": "Civic Summary",
               "organization": "Civic Summary",
               "type": "commercial",
@@ -612,6 +741,20 @@
               "type": "commercial",
               "url": "https://www.heyrecap.com",
               "note": "Focuses on Roswell, Georgia. As of August 5, 2026, it does not appear to be expanding to additional locations."
+            },
+            {
+              "product_name": "MyLocalBoard",
+              "organization": "EmpathySystem.ai",
+              "type": "commercial",
+              "url": "https://www.mylocalboard.com/",
+              "note": "Currently operates a Santa Monica College pilot and lists Long Beach and San Jose, California as additional pilot cities."
+            },
+            {
+              "product_name": "OpenTowns",
+              "organization": "OpenTowns",
+              "type": "commercial",
+              "url": "https://opentowns.org/",
+              "note": "Currently covers 12 Massachusetts communities, concentrated in Greater Boston with additional coverage in Worcester."
             }
           ]
         },

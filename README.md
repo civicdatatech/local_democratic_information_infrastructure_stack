@@ -11,6 +11,11 @@ United States that make government information usable for public-interest
 purposes. Exclude tools built primarily to monitor government for private
 commercial advantage.
 
+General local activist groups and general-purpose engagement or consultation
+platforms sold to governments are excluded. Scaled engagement infrastructure
+is included when it helps residents use and act on local democratic
+information.
+
 Layer 1 is illustrative rather than comprehensive. Include foundational
 reference data and major providers with broad U.S. local-government use, and put
 narrower Layer 1 providers in the Notes section.
