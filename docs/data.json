@@ -412,6 +412,12 @@
           "name": "Meeting Transcription",
           "items": [
             {
+              "product_name": "Aware",
+              "organization": "Aware",
+              "type": "commercial",
+              "url": "https://www.awarenow.ai"
+            },
+            {
               "product_name": "CivicPlus Media",
               "organization": "CivicPlus",
               "type": "commercial",
@@ -476,6 +482,18 @@
               "organization": "SeeGov",
               "type": "nonprofit",
               "url": "https://seegov.org"
+            },
+            {
+              "product_name": "TelVue SmartCaption",
+              "organization": "TelVue",
+              "type": "commercial",
+              "url": "https://telvue.com/smartcaption/"
+            },
+            {
+              "product_name": "YouTube",
+              "organization": "Google",
+              "type": "commercial",
+              "url": "https://support.google.com/youtube/answer/6373554"
             }
           ]
         }
