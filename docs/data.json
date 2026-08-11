@@ -252,12 +252,6 @@
               "url": "https://civilio.ai"
             },
             {
-              "product_name": "Council Data Project",
-              "organization": "Council Data Project",
-              "type": "nonprofit",
-              "url": "https://councildataproject.org/"
-            },
-            {
               "product_name": "Muyni",
               "organization": "Muyni",
               "type": "nonprofit",
@@ -430,12 +424,6 @@
               "url": "https://civilio.ai"
             },
             {
-              "product_name": "Council Data Project",
-              "organization": "Council Data Project",
-              "type": "nonprofit",
-              "url": "https://councildataproject.org/"
-            },
-            {
               "product_name": "Granicus Video",
               "organization": "Granicus",
               "type": "commercial",
@@ -579,12 +567,6 @@
               "url": "https://civic-scraper.readthedocs.io"
             },
             {
-              "product_name": "Council Data Project",
-              "organization": "Council Data Project",
-              "type": "nonprofit",
-              "url": "https://councildataproject.org/"
-            },
-            {
               "product_name": "Legigram",
               "organization": "Legigram",
               "type": "nonprofit",
@@ -607,17 +589,6 @@
               "organization": "Open Civic Data",
               "type": "nonprofit",
               "url": "https://github.com/opencivicdata/scrapers-us-municipal"
-            }
-          ]
-        },
-        {
-          "name": "Legislative Data & Normalization",
-          "items": [
-            {
-              "product_name": "Council Data Project",
-              "organization": "Council Data Project",
-              "type": "nonprofit",
-              "url": "https://councildataproject.org/"
             }
           ]
         },
@@ -647,12 +618,6 @@
               "organization": "Civilio",
               "type": "commercial",
               "url": "https://civilio.ai"
-            },
-            {
-              "product_name": "Granicus Swagit",
-              "organization": "Granicus",
-              "type": "commercial",
-              "url": "https://granicus.com/product/video-swagit-partially-and-fully-managed-video-solutions/"
             },
             {
               "product_name": "LocalLens",
@@ -867,9 +832,21 @@
       "id": "notes",
       "layer_number": 0,
       "name": "Notes",
-      "description": "Projects and providers listed separately because of limited geographic coverage or the stack's selective Layer 1 focus.",
+      "description": "Projects and providers listed separately because of limited geographic coverage, historical/inactive status, or the stack's selective Layer 1 focus. Inactive historical projects may be included if their repositories and reference implementations remain useful for current projects.",
       "is_notes": true,
       "categories": [
+        {
+          "name": "Inactive & Historical Projects",
+          "items": [
+            {
+              "product_name": "Council Data Project",
+              "organization": "Council Data Project",
+              "type": "nonprofit",
+              "url": "https://councildataproject.org/",
+              "note": "An open-source municipal meeting data platform that is no longer actively maintained. Its repositories remain useful as reference implementations for meeting ingestion, transcription, data models, and city-specific scraping, although some scraping approaches may now be superseded."
+            }
+          ]
+        },
         {
           "name": "Limited-Coverage Projects",
           "items": [
