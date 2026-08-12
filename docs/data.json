@@ -134,23 +134,6 @@
               "url": "https://seegov.org"
             }
           ]
-        },
-        {
-          "name": "Public Participation & Comment",
-          "items": [
-            {
-              "product_name": "Districtr",
-              "organization": "Districtr",
-              "type": "nonprofit",
-              "url": "https://districtr.org/"
-            },
-            {
-              "product_name": "PublicInput Meetings",
-              "organization": "PublicInput",
-              "type": "commercial",
-              "url": "https://publicinput.com/"
-            }
-          ]
         }
       ]
     },
@@ -163,12 +146,6 @@
         {
           "name": "Voter Guide Support",
           "items": [
-            {
-              "product_name": "Rock the Vote Civic Technology",
-              "organization": "Rock the Vote",
-              "type": "nonprofit",
-              "url": "https://www.rockthevote.org/programs-and-partner-resources/tech-for-civic-engagement/"
-            },
             {
               "product_name": "TurboVote",
               "organization": "Democracy Works",
@@ -258,22 +235,10 @@
               "url": "https://civilio.ai"
             },
             {
-              "product_name": "Council Data Project",
-              "organization": "Council Data Project",
-              "type": "nonprofit",
-              "url": "https://councildataproject.org/"
-            },
-            {
               "product_name": "Muyni",
               "organization": "Muyni",
               "type": "nonprofit",
               "url": "https://www.muyni.com/"
-            },
-            {
-              "product_name": "PublicInput Meetings",
-              "organization": "PublicInput",
-              "type": "commercial",
-              "url": "https://publicinput.com/"
             }
           ]
         },
@@ -418,12 +383,6 @@
           "name": "Meeting Transcription",
           "items": [
             {
-              "product_name": "Aware",
-              "organization": "Aware",
-              "type": "commercial",
-              "url": "https://www.awarenow.ai"
-            },
-            {
               "product_name": "CivicPlus Media",
               "organization": "CivicPlus",
               "type": "commercial",
@@ -442,12 +401,6 @@
               "url": "https://civilio.ai"
             },
             {
-              "product_name": "Council Data Project",
-              "organization": "Council Data Project",
-              "type": "nonprofit",
-              "url": "https://councildataproject.org/"
-            },
-            {
               "product_name": "Granicus Video",
               "organization": "Granicus",
               "type": "commercial",
@@ -458,12 +411,6 @@
               "organization": "American Public Media",
               "type": "nonprofit",
               "url": "https://thelocallens.org"
-            },
-            {
-              "product_name": "LocalView",
-              "organization": "LocalView",
-              "type": "nonprofit",
-              "url": "https://www.localview.net/"
             },
             {
               "product_name": "Locunity",
@@ -488,18 +435,6 @@
               "organization": "SeeGov",
               "type": "nonprofit",
               "url": "https://seegov.org"
-            },
-            {
-              "product_name": "TelVue SmartCaption",
-              "organization": "TelVue",
-              "type": "commercial",
-              "url": "https://telvue.com/smartcaption/"
-            },
-            {
-              "product_name": "YouTube",
-              "organization": "Google",
-              "type": "commercial",
-              "url": "https://support.google.com/youtube/answer/6373554"
             }
           ]
         }
@@ -565,17 +500,6 @@
           ]
         },
         {
-          "name": "Election Results Data",
-          "items": [
-            {
-              "product_name": "OpenElections",
-              "organization": "OpenElections",
-              "type": "nonprofit",
-              "url": "https://openelections.net/"
-            }
-          ]
-        },
-        {
           "name": "Meeting Agenda and Document Scraping",
           "items": [
             {
@@ -603,12 +527,6 @@
               "url": "https://civic-scraper.readthedocs.io"
             },
             {
-              "product_name": "Council Data Project",
-              "organization": "Council Data Project",
-              "type": "nonprofit",
-              "url": "https://councildataproject.org/"
-            },
-            {
               "product_name": "Legigram",
               "organization": "Legigram",
               "type": "nonprofit",
@@ -631,17 +549,6 @@
               "organization": "Open Civic Data",
               "type": "nonprofit",
               "url": "https://github.com/opencivicdata/scrapers-us-municipal"
-            }
-          ]
-        },
-        {
-          "name": "Legislative Data & Normalization",
-          "items": [
-            {
-              "product_name": "Council Data Project",
-              "organization": "Council Data Project",
-              "type": "nonprofit",
-              "url": "https://councildataproject.org/"
             }
           ]
         },
@@ -673,22 +580,10 @@
               "url": "https://civilio.ai"
             },
             {
-              "product_name": "Granicus Swagit",
-              "organization": "Granicus",
-              "type": "commercial",
-              "url": "https://granicus.com/product/video-swagit-partially-and-fully-managed-video-solutions/"
-            },
-            {
               "product_name": "LocalLens",
               "organization": "American Public Media",
               "type": "nonprofit",
               "url": "https://thelocallens.org"
-            },
-            {
-              "product_name": "LocalView",
-              "organization": "LocalView",
-              "type": "nonprofit",
-              "url": "https://www.localview.net/"
             },
             {
               "product_name": "Locunity",
@@ -742,17 +637,6 @@
           ]
         },
         {
-          "name": "Electoral Geography & Redistricting Data",
-          "items": [
-            {
-              "product_name": "Redistricting Data Hub",
-              "organization": "Redistricting Data Hub",
-              "type": "nonprofit",
-              "url": "https://redistrictingdatahub.org/"
-            }
-          ]
-        },
-        {
           "name": "Election Administration Systems",
           "items": [
             {
@@ -760,23 +644,6 @@
               "organization": "Municipal Government",
               "type": "nonprofit",
               "url": "#"
-            }
-          ]
-        },
-        {
-          "name": "Election Technology & Auditing",
-          "items": [
-            {
-              "product_name": "VotingWorks Arlo",
-              "organization": "VotingWorks",
-              "type": "nonprofit",
-              "url": "https://www.voting.works/products"
-            },
-            {
-              "product_name": "VotingWorks VxSuite",
-              "organization": "VotingWorks",
-              "type": "nonprofit",
-              "url": "https://www.voting.works/products"
             }
           ]
         },
@@ -928,7 +795,7 @@
               "note": "Currently lists only Chicago and Los Angeles Metro. Its source-code link points to a legacy New York City repository last updated in 2019, although the Chicago implementation remains maintained."
             },
             {
-              "product_name": "Hamlet",
+              "product_name": "Hamlet GovCenter",
               "organization": "Hamlet",
               "type": "commercial",
               "url": "https://www.myhamlet.com/",
