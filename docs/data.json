@@ -128,23 +128,6 @@
               "url": "https://seegov.org"
             }
           ]
-        },
-        {
-          "name": "Public Participation & Comment",
-          "items": [
-            {
-              "product_name": "Districtr",
-              "organization": "Districtr",
-              "type": "nonprofit",
-              "url": "https://districtr.org/"
-            },
-            {
-              "product_name": "PublicInput Meetings",
-              "organization": "PublicInput",
-              "type": "commercial",
-              "url": "https://publicinput.com/"
-            }
-          ]
         }
       ]
     },
@@ -250,12 +233,6 @@
               "organization": "Civilio",
               "type": "commercial",
               "url": "https://civilio.ai"
-            },
-            {
-              "product_name": "Council Data Project",
-              "organization": "Council Data Project",
-              "type": "nonprofit",
-              "url": "https://councildataproject.org/"
             },
             {
               "product_name": "Muyni",
@@ -430,12 +407,6 @@
               "url": "https://civilio.ai"
             },
             {
-              "product_name": "Council Data Project",
-              "organization": "Council Data Project",
-              "type": "nonprofit",
-              "url": "https://councildataproject.org/"
-            },
-            {
               "product_name": "Granicus Video",
               "organization": "Granicus",
               "type": "commercial",
@@ -446,12 +417,6 @@
               "organization": "American Public Media",
               "type": "nonprofit",
               "url": "https://thelocallens.org"
-            },
-            {
-              "product_name": "LocalView",
-              "organization": "LocalView",
-              "type": "nonprofit",
-              "url": "https://www.localview.net/"
             },
             {
               "product_name": "Locunity",
@@ -541,17 +506,6 @@
           ]
         },
         {
-          "name": "Election Results Data",
-          "items": [
-            {
-              "product_name": "OpenElections",
-              "organization": "OpenElections",
-              "type": "nonprofit",
-              "url": "https://openelections.net/"
-            }
-          ]
-        },
-        {
           "name": "Meeting Agenda and Document Scraping",
           "items": [
             {
@@ -579,12 +533,6 @@
               "url": "https://civic-scraper.readthedocs.io"
             },
             {
-              "product_name": "Council Data Project",
-              "organization": "Council Data Project",
-              "type": "nonprofit",
-              "url": "https://councildataproject.org/"
-            },
-            {
               "product_name": "Legigram",
               "organization": "Legigram",
               "type": "nonprofit",
@@ -607,17 +555,6 @@
               "organization": "Open Civic Data",
               "type": "nonprofit",
               "url": "https://github.com/opencivicdata/scrapers-us-municipal"
-            }
-          ]
-        },
-        {
-          "name": "Legislative Data & Normalization",
-          "items": [
-            {
-              "product_name": "Council Data Project",
-              "organization": "Council Data Project",
-              "type": "nonprofit",
-              "url": "https://councildataproject.org/"
             }
           ]
         },
@@ -659,12 +596,6 @@
               "organization": "American Public Media",
               "type": "nonprofit",
               "url": "https://thelocallens.org"
-            },
-            {
-              "product_name": "LocalView",
-              "organization": "LocalView",
-              "type": "nonprofit",
-              "url": "https://www.localview.net/"
             },
             {
               "product_name": "Locunity",
@@ -718,17 +649,6 @@
           ]
         },
         {
-          "name": "Electoral Geography & Redistricting Data",
-          "items": [
-            {
-              "product_name": "Redistricting Data Hub",
-              "organization": "Redistricting Data Hub",
-              "type": "nonprofit",
-              "url": "https://redistrictingdatahub.org/"
-            }
-          ]
-        },
-        {
           "name": "Election Administration Systems",
           "items": [
             {
@@ -736,23 +656,6 @@
               "organization": "Municipal Government",
               "type": "nonprofit",
               "url": "#"
-            }
-          ]
-        },
-        {
-          "name": "Election Technology & Auditing",
-          "items": [
-            {
-              "product_name": "VotingWorks Arlo",
-              "organization": "VotingWorks",
-              "type": "nonprofit",
-              "url": "https://www.voting.works/products"
-            },
-            {
-              "product_name": "VotingWorks VxSuite",
-              "organization": "VotingWorks",
-              "type": "nonprofit",
-              "url": "https://www.voting.works/products"
             }
           ]
         },
@@ -794,23 +697,6 @@
               "organization": "PublicInput",
               "type": "commercial",
               "url": "https://publicinput.com/"
-            }
-          ]
-        },
-        {
-          "name": "Municipal Codes & Ordinance Publishing",
-          "items": [
-            {
-              "product_name": "CivicPlus Municode Codification",
-              "organization": "CivicPlus",
-              "type": "commercial",
-              "url": "https://www.civicplus.com/municode-codification-software/"
-            },
-            {
-              "product_name": "eCode360",
-              "organization": "ICC Code Solutions",
-              "type": "commercial",
-              "url": "https://ecode360.com/"
             }
           ]
         },
@@ -870,6 +756,18 @@
       "description": "Projects and providers listed separately because of limited geographic coverage or the stack's selective Layer 1 focus.",
       "is_notes": true,
       "categories": [
+        {
+          "name": "Inactive & Historical Projects",
+          "items": [
+            {
+              "product_name": "Council Data Project",
+              "organization": "Council Data Project",
+              "type": "nonprofit",
+              "url": "https://councildataproject.org/",
+              "note": "An open-source municipal meeting data platform that is no longer actively maintained. Its repositories remain useful as reference implementations for meeting ingestion, transcription, data models, and city-specific scraping, although some scraping approaches may now be superseded."
+            }
+          ]
+        },
         {
           "name": "Limited-Coverage Projects",
           "items": [
