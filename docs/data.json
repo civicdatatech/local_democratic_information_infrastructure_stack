@@ -21,16 +21,22 @@
               "url": "https://www.ballotready.org"
             },
             {
+              "product_name": "Districtr",
+              "organization": "MGGG Redistricting Lab",
+              "type": "nonprofit",
+              "url": "https://www.districtr.org"
+            },
+            {
               "product_name": "guides.vote",
               "organization": "guides.vote",
               "type": "nonprofit",
               "url": "https://guides.vote"
             },
             {
-              "product_name": "Rock the Vote Civic Technology",
+              "product_name": "Rock the Vote",
               "organization": "Rock the Vote",
               "type": "nonprofit",
-              "url": "https://www.rockthevote.org/programs-and-partner-resources/tech-for-civic-engagement/"
+              "url": "https://www.rockthevote.org"
             },
             {
               "product_name": "TurboVote",
@@ -816,23 +822,6 @@
           ]
         },
         {
-          "name": "Municipal Codes & Ordinance Publishing",
-          "items": [
-            {
-              "product_name": "CivicPlus Municode Codification",
-              "organization": "CivicPlus",
-              "type": "commercial",
-              "url": "https://www.civicplus.com/municode-codification-software/"
-            },
-            {
-              "product_name": "eCode360",
-              "organization": "ICC Code Solutions",
-              "type": "commercial",
-              "url": "https://ecode360.com/"
-            }
-          ]
-        },
-        {
           "name": "Official Broadcasting & Event Hosting",
           "items": [
             {
@@ -885,9 +874,21 @@
       "id": "notes",
       "layer_number": 0,
       "name": "Notes",
-      "description": "Projects and providers listed separately because of limited geographic coverage or the stack's selective Layer 1 focus.",
+      "description": "Projects and providers listed separately because of limited geographic coverage, historical/inactive status, or the stack's selective Layer 1 focus. Inactive historical projects may be included if their repositories and reference implementations remain useful for current projects.",
       "is_notes": true,
       "categories": [
+        {
+          "name": "Inactive & Historical Projects",
+          "items": [
+            {
+              "product_name": "Council Data Project",
+              "organization": "Council Data Project",
+              "type": "nonprofit",
+              "url": "https://councildataproject.org/",
+              "note": "An open-source municipal meeting data platform that is no longer actively maintained. Its repositories remain useful as reference implementations for meeting ingestion, transcription, data models, and city-specific scraping, although some scraping approaches may now be superseded."
+            }
+          ]
+        },
         {
           "name": "Limited-Coverage Projects",
           "items": [
@@ -931,7 +932,7 @@
               "organization": "Hamlet",
               "type": "commercial",
               "url": "https://www.myhamlet.com/",
-              "note": "Nationwide meeting-search coverage now spans thousands of governing bodies, so limited geography is no longer the issue. Hamlet remains outside the main stack because its current primary positioning centers commercial market intelligence for businesses; this is a documented boundary under the stack's Public-Interest Purpose rule."
+              "note": "Currently lists only Palo Alto and Saratoga, California. The Palo Alto page indicates that new meeting summaries are no longer being produced. Hamlet's main product now provides nationwide local-government intelligence primarily for commercial users and falls outside the stack's public-interest scope."
             },
             {
               "product_name": "HeyRecap",
@@ -1000,6 +1001,13 @@
               "type": "commercial",
               "url": "https://www.leightronix.com/products/viebit-vod",
               "note": "Provides live and on-demand web video with optional index points used by some government channels; it would fit Layer 1's Official Broadcasting & Event Hosting category."
+            },
+            {
+              "product_name": "VotingWorks",
+              "organization": "VotingWorks",
+              "type": "nonprofit",
+              "url": "https://www.voting.works",
+              "note": "Provides election administration and audit products (Arlo and VxSuite). Layer 1 is intentionally selective; VotingWorks reported relatively limited deployments in its 2024 Form 990, and the stack deliberately does not catalog individual election systems."
             }
           ]
         }
