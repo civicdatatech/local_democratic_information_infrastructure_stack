@@ -21,16 +21,22 @@
               "url": "https://www.ballotready.org"
             },
             {
+              "product_name": "Districtr",
+              "organization": "MGGG Redistricting Lab",
+              "type": "nonprofit",
+              "url": "https://www.districtr.org"
+            },
+            {
               "product_name": "guides.vote",
               "organization": "guides.vote",
               "type": "nonprofit",
               "url": "https://guides.vote"
             },
             {
-              "product_name": "Rock the Vote Civic Technology",
+              "product_name": "Rock the Vote",
               "organization": "Rock the Vote",
               "type": "nonprofit",
-              "url": "https://www.rockthevote.org/programs-and-partner-resources/tech-for-civic-engagement/"
+              "url": "https://www.rockthevote.org"
             },
             {
               "product_name": "TurboVote",
@@ -141,12 +147,6 @@
           "name": "Voter Guide Support",
           "items": [
             {
-              "product_name": "Rock the Vote Civic Technology",
-              "organization": "Rock the Vote",
-              "type": "nonprofit",
-              "url": "https://www.rockthevote.org/programs-and-partner-resources/tech-for-civic-engagement/"
-            },
-            {
               "product_name": "TurboVote",
               "organization": "Democracy Works",
               "type": "nonprofit",
@@ -239,12 +239,6 @@
               "organization": "Muyni",
               "type": "nonprofit",
               "url": "https://www.muyni.com/"
-            },
-            {
-              "product_name": "PublicInput Meetings",
-              "organization": "PublicInput",
-              "type": "commercial",
-              "url": "https://publicinput.com/"
             }
           ]
         },
@@ -586,12 +580,6 @@
               "url": "https://civilio.ai"
             },
             {
-              "product_name": "Granicus Swagit",
-              "organization": "Granicus",
-              "type": "commercial",
-              "url": "https://granicus.com/product/video-swagit-partially-and-fully-managed-video-solutions/"
-            },
-            {
               "product_name": "LocalLens",
               "organization": "American Public Media",
               "type": "nonprofit",
@@ -753,7 +741,7 @@
       "id": "notes",
       "layer_number": 0,
       "name": "Notes",
-      "description": "Projects and providers listed separately because of limited geographic coverage or the stack's selective Layer 1 focus.",
+      "description": "Projects and providers listed separately because of limited geographic coverage, historical/inactive status, or the stack's selective Layer 1 focus. Inactive historical projects may be included if their repositories and reference implementations remain useful for current projects.",
       "is_notes": true,
       "categories": [
         {
@@ -807,11 +795,11 @@
               "note": "Currently lists only Chicago and Los Angeles Metro. Its source-code link points to a legacy New York City repository last updated in 2019, although the Chicago implementation remains maintained."
             },
             {
-              "product_name": "Hamlet",
+              "product_name": "Hamlet GovCenter",
               "organization": "Hamlet",
               "type": "commercial",
               "url": "https://www.myhamlet.com/",
-              "note": "Nationwide meeting-search coverage now spans thousands of governing bodies, so limited geography is no longer the issue. Hamlet remains outside the main stack because its current primary positioning centers commercial market intelligence for businesses; this is a documented boundary under the stack's Public-Interest Purpose rule."
+              "note": "Currently lists only Palo Alto and Saratoga, California. The Palo Alto page indicates that new meeting summaries are no longer being produced. Hamlet's main product now provides nationwide local-government intelligence primarily for commercial users and falls outside the stack's public-interest scope."
             },
             {
               "product_name": "HeyRecap",
@@ -880,6 +868,13 @@
               "type": "commercial",
               "url": "https://www.leightronix.com/products/viebit-vod",
               "note": "Provides live and on-demand web video with optional index points used by some government channels; it would fit Layer 1's Official Broadcasting & Event Hosting category."
+            },
+            {
+              "product_name": "VotingWorks",
+              "organization": "VotingWorks",
+              "type": "nonprofit",
+              "url": "https://www.voting.works",
+              "note": "Provides election administration and audit products (Arlo and VxSuite). Layer 1 is intentionally selective; VotingWorks reported relatively limited deployments in its 2024 Form 990, and the stack deliberately does not catalog individual election systems."
             }
           ]
         }
