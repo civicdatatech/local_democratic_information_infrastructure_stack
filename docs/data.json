@@ -170,28 +170,16 @@
           "name": "Representative Data",
           "items": [
             {
-              "product_name": "Ballotpedia Data Client",
+              "product_name": "Ballotpedia",
               "organization": "Ballotpedia",
               "type": "nonprofit",
               "url": "https://developer.ballotpedia.org"
             },
             {
-              "product_name": "BallotReady Officeholder Engine",
+              "product_name": "BallotReady",
               "organization": "BallotReady",
               "type": "commercial",
               "url": "https://organizations.ballotready.org/officeholder-engine"
-            },
-            {
-              "product_name": "Cicero API",
-              "organization": "Cicero",
-              "type": "commercial",
-              "url": "https://www.cicerodata.com/api/"
-            },
-            {
-              "product_name": "CivicPatch",
-              "organization": "Civic Data Tech",
-              "type": "nonprofit",
-              "url": "https://www.civicpatch.org"
             },
             {
               "product_name": "CTCL Governance Project",
@@ -200,7 +188,7 @@
               "url": "https://www.techandciviclife.org/our-work/research-department/governance-project/"
             },
             {
-              "product_name": "Locunity Civic Map",
+              "product_name": "Locunity",
               "organization": "Locunity",
               "type": "commercial",
               "url": "https://www.locunity.com"
@@ -447,7 +435,7 @@
       "description": "Where tools scrape, pull, and gather raw data from highly fragmented local government systems.",
       "categories": [
         {
-          "name": "Election Data, Candidate Filings & Voter Information",
+          "name": "Election Data, Candidate Filings",
           "items": [
             {
               "product_name": "Ballotpedia Data Client",
@@ -496,6 +484,46 @@
               "organization": "Democracy Works",
               "type": "nonprofit",
               "url": "https://www.democracy.works/voting-info-project"
+            }
+          ]
+        },
+        {
+          "name": "Representative Data",
+          "items": [
+            {
+              "product_name": "Ballotpedia Data Client",
+              "organization": "Ballotpedia",
+              "type": "nonprofit",
+              "url": "https://developer.ballotpedia.org"
+            },
+            {
+              "product_name": "BallotReady Officeholder Engine",
+              "organization": "BallotReady",
+              "type": "commercial",
+              "url": "https://organizations.ballotready.org/officeholder-engine"
+            },
+            {
+              "product_name": "Cicero API",
+              "organization": "Cicero",
+              "type": "commercial",
+              "url": "https://www.cicerodata.com/api/"
+            },
+            {
+              "product_name": "CivicPatch",
+              "organization": "Civic Data Tech",
+              "type": "nonprofit",
+              "url": "https://www.civicpatch.org"
+            }
+          ]
+        },
+        {
+          "name": "Election Results Data",
+          "items": [
+            {
+              "product_name": "OpenElections",
+              "organization": "OpenElections",
+              "type": "nonprofit",
+              "url": "https://openelections.net/"
             }
           ]
         },
