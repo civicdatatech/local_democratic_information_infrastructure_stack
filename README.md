@@ -33,6 +33,8 @@ The stack covers projects and products with meaningful local-government or local
 
 **Layer 1 note:** Illustrative rather than comprehensive. Include foundational reference data and major providers with broad U.S. local-government use; put narrower Layer 1 providers in the Notes section.
 
+**Inactive projects note:** Inactive historical projects may be included if the resources they made are still available and are still useful for current projects.
+
 ---
 
 ## Contributing & Issue Tracking {#contributing--issue-tracking}
