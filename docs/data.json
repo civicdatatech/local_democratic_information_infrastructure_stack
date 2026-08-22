@@ -27,6 +27,12 @@
               "url": "https://www.districtr.org"
             },
             {
+              "product_name": "Empowered Essentials & Compass",
+              "organization": "Empowered Vote",
+              "type": "nonprofit",
+              "url": "https://empowered.vote/"
+            },
+            {
               "product_name": "guides.vote",
               "organization": "guides.vote",
               "type": "nonprofit",
@@ -513,6 +519,13 @@
               "organization": "Civic Data Tech",
               "type": "nonprofit",
               "url": "https://www.civicpatch.org"
+            },
+            {
+              "product_name": "Empowered Vote",
+              "organization": "Empowered Vote",
+              "type": "nonprofit",
+              "url": "https://empowered.vote/",
+              "note": "Currently scrapes representative data; illustrates opportunity for future integration with data from other providers."
             }
           ]
         },
